@@ -22,6 +22,17 @@ Blender ile sıfırdan, gerçek ölçekte, VTOL VR tarzında sade grafiklere sah
 - İlk oynanabilir sürüm: tam temel cold start sırası ve uçuş odaklı işlevler.
 - Oyun motoru ve export biçimi henüz seçilmedi; kullanıcı bunları sonraya bıraktı.
 
+## Uygulama sırası ve güncel çalışma sınırı
+
+13 Ekim 2026 ilk talimatı yalnızca referans toplamaktı; yeni talimat: 2. aşama olan ana modeli Blender’da kur ve görülebilir 3D sonuç teslim et.
+
+1. Referans bulma: kaynakları topla, erişilebilir belge/görselleri yerelde sakla, inceleme ve kullanım sınırlarını kaydet. Teslimat: [research/REFERANSLAR.md](research/REFERANSLAR.md).
+2. Modelleme öncesi açık teknik doğrulamaları çöz: kesin ölçü tanımları, kokpit ölçeği, Block 52 panel/nozul uyumu.
+3. Blender gövde/kokpit ana hacimleri, ayrıntılar ve kabul kontrolleri.
+4. Sonraki oyun/export aşaması.
+
+Yeni talimat Blender ana modelini oluşturmayı yetkilendirir. Kesin ölçü ve kokpit kaynakları beklenirken ilk ana model, açıkça geçici ölçek ve fotoğraf yorumlarıyla kurulacak; araştırma boşlukları kapanmış sayılmayacak. 169th Fighter Wing 2018 Block 52 fotoğrafları dış görünüşün ana araştırma seti; DCS Block 50/2007 kokpiti yardımcı kaynaktır. Bu kaynak seçimi, tarihsel bir Türk Block 52 veya tamamen doğrulanmış bir aviyonik konfigürasyon iddiası değildir. Geçici ölçüler kesinleştirilmedi.
+
 ## Gövde ve hareketli parçalar
 
 Genel F-16C referansındaki orijinal fit/inç değerlerinin dönüşümü yaklaşık 15,06 m uzunluk, 9,96 m kanat açıklığı ve 4,88 m yükseklik verir. Bunlar ilk ölçek referansıdır. Block 52'ye özgü boyutlar, ölçüm uçları ve iniş takımı durumunun etkisi modelleme öncesinde doğrulanacak; araştırma notlarındaki metrik tutarsızlık sessizce göz ardı edilmeyecek.

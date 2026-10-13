@@ -1,37 +1,40 @@
 # Güncel proje durumu
 
-Son güncelleme: 13 Ekim 2026
+Son güncelleme: 13 Ekim 2026 — referans toplama teslimatı
 
 ## Tamamlanan işler
 
-- Kullanıcı `output/concepts/f16c-pilot-view-v2.png` görselinin sade VTOL VR tarzını beğenip onayladı; kabul edilen stil referansı olarak `PLAN.md` içine kaydedildi. Bu onay kokpitin teknik doğruluğu veya GPU performansının doğrulanması anlamına gelmez.
+- Kullanıcı tercihleri, kapsam, PLAN.md ve sohbetler arası proje kayıtları oluşturuldu.
+- Kullanıcının “referansları bul ve diğer işlere geçme” sınırı PLAN.md içine işlendi.
+- [REFERANSLAR.md](REFERANSLAR.md) kaynak kataloğu hazırlandı: dış görünüş, hava alığı, kokpit, genel üç görünüş, Türk boyaması ve VTOL VR stil örnekleri.
+- research/references içinde 6 PDF, 15 seçilmiş fotoğraf/ekran görüntüsü, 7 belge sayfası PNG'si ve kaynak açıklaması HTML kopyaları saklandı. C-17 çıkan 1 ek galeri görüntüsü rejected klasörüne ayrıldı; referans sayısına dahil değil.
+- Resmî DCS kılavuzu yeni bağlantıdan indirildi; kapak 16 August 2026. İncelenen sayfalar katalogda kayıtlı. Önceki 403/404 kaydı yeni dosyanın erişim durumunu anlatmıyor.
+- 169th FW 2018 Block 52 dış görünüş fotoğrafları ana araştırma seti olarak seçildi. DCS Block 50/2007 kokpit kaynağının hedefe uygunluk sınırı belirtildi.
+- Kaynak URL, boyut, SHA-256 ve inceleme bilgileri references/manifest.json; başarısız indirmeler references/download_log.json içinde kayıtlı.
 
-- Kullanıcı tercihleri ve ilk Blender teslimatının kapsamı belirlendi; `PLAN.md` oluşturuldu.
-- F-16 motor/varyant, Türk boyaması ve genel ölçüler üzerine ilk kaynak taraması kaydedildi.
-- Araştırma eksikleri `research/TODO.md` içinde toplandı.
-- Araştırma klasörü `research` olarak güncellendi; plan bağlantıları düzeltildi.
-- Sohbetler arası devam için proje özeti ve kök `AGENTS.md` yönlendirmesi oluşturuldu.
-- Plan temel alınarak imagegen ile pilot gözünden bir görsel konsept üretildi: `output/concepts/f16c-pilot-view-v1.png`. Görsel, açık ekranlarla sonraki oyun aşamasının görünümünü tasvir eder; Blender renderı veya tamamlanmış model değildir. Görselde iki MFD, HUD ve yan kumandalar bulunması kontrol edildi; panel yerleşimleri, yazılar, gösterge değerleri ve ölçüler teknik olarak doğrulanmadı ve modelleme referansı kabul edilmemelidir. Üretim istemi: `output/concepts/f16c-pilot-view-v1-prompt.txt`.
+## Doğrulama kapsamı
 
-## Henüz tamamlanmayan işler
+PDF dosyalarının açılabilirliği, görsellerin biçim/boyutları, yerel bağlantılar ve manifest hash'leri denetlendi. Seçilmiş fotoğraflar, üç görünüşler, NSI kesit karşılaştırması ve kokpit genel/gösterge/sol/sağ panel sayfaları görsel olarak açıldı. Tamamı okunmamış PDF'ler veya sadece aramada görülen bilgi incelenmiş sayılmadı.
 
-Görsel hedef düzeltmesi: kullanıcı ilk konsepti fazla gerçekçi buldu. VTOL VR tarzında daha sade grafikler ve Intel Iris Xe üzerinde rahat oynanabilirlik hedefi plana işlendi. Yeni imagegen konsepti: `output/concepts/f16c-pilot-view-v2.png`; istemi: `output/concepts/f16c-pilot-view-v2-prompt.txt`. Düz renkler, sade geometri ve azaltılmış yüzey ayrıntıları görsel olarak incelendi. Bu görsel bir Blender modeli, doğrulanmış kokpit haritası veya GPU performans ölçümü değildir.
+Referans bulma teslimatı tamamlandı; bütün modelleme öncesi araştırma tamamlanmış değildir.
 
-- Blender modeli, üretim betiği, render veya oyun kodu henüz oluşturulmadı.
-- Nihai düğme listesi ve eksiksiz temel cold start checklist'i henüz doğrulanmadı.
-- Block 52'ye özgü ölçülü referans seti ve kokpit ölçüleri henüz hazırlanmadı.
-- Genel boyut kaynaklarının çelişen metrik değerleri ve farklı yükseklikleri henüz çözülemedi.
-- Resmi DCS kılavuzunun tam PDF'i indirilemedi; önceki bağlantılar 403/404 hataları verdi. Arama sonuçları tam belge incelemesi sayılmıyor.
-- Oyun motoru, export biçimi, kesin Iris Xe varyantı, çözünürlük ve FPS hedefleri seçilmedi; genel donanım hedefi Intel Iris Xe olarak belirlendi.
+## Açık işler
 
-## Sonraki modelleme adımı
+- Ölçüm uçları tanımlı standart Block 52 dış ölçüleri; pitot, raylar ve iniş takımı/zemin datumu. Genel NASA çizimi hedef blok için kesin şartname değildir.
+- Kokpit fiziksel ölçeği, panel/koltuk koordinatları ve pilot göz noktası.
+- Tek aviyonik dönemine ait Block 52 panel/anten eşlemesi; PW229 yakın nozul geometrisi.
+- Pivot/menteşe ve hareket sınırları; Türk boya standardı ile eksiksiz işaret/stencil seti.
+- Nihai düğme haritası ve temel cold start kapsam doğrulaması.
+- Blender modeli, Blender üretim betiği, render ve oyun kodu henüz oluşturulmadı. Oyun motoru/export seçilmedi.
 
-Önce `research/TODO.md` içindeki modelleme öncesi araştırmaları tamamla: hedef Block 52 konfigürasyonu, ölçülü görünüşler, dış boyutlar, motor/hava alığı ayrımı ve kokpit yerleşimi. Doğrulanan bilgileri kaynaklarıyla kaydet. Ardından gerçek ölçekli gövde ve kokpit ana hacimlerini kurup ortografik görüntüler ve pilot bakışıyla değerlendir; ayrıntıları bunun üzerine ekle.
+## Sonraki adım ve durma sınırı
+
+Bu oturum burada durdu; modellemeye geçilmedi. Kullanıcı devam istediğinde önce TODO.md'deki açık teknik doğrulamaları ele al: kesin Block 52 ölçüm tanımları ve gerçek kokpit ölçeği. Bunları çözmeden geçici boyutları doğrulanmış kabul etme.
 
 ## Ortam kaydı
 
-13 Ekim 2026'da `/home/mami/Projects/bl` içinde Blender 5.2.1 LTS kullanılabilir bulundu. Godot ve Git çalıştırılabilir dosyaları mevcut; klasör henüz Git deposu değil. Bunlar sonraki sohbetlerde yeniden kontrol edilebilecek ortam gözlemleridir.
+Önceki ortam gözlemi: Blender 5.2.1 LTS, Godot ve Git mevcut. Klasör `main` dalında Git deposudur. Bu oturum Blender çalıştırılmadı ve mevcut kullanıcı modeli değiştirilmedi.
 
-## Güncelleme biçimi
+## GitHub yayını
 
-Bu dosya çalışma ilerledikçe güncel durumu göstermeli. Üretilen dosyaların yollarını, gerçekten yapılan görsel/teknik doğrulamaları, kalan somut sorunları ve sıradaki adımı yaz. Bir işin yalnızca planlanmış olması onu tamamlanan işler bölümüne taşımak için yeterli değildir.
+13 Ekim 2026: proje [c0detnr/f16-projesi](https://github.com/c0detnr/f16-projesi) adlı herkese açık depoda yayınlandı. İlk commit `815d305` GitHub ile karşılaştırılarak doğrulandı; güncellenen araştırma kataloğu ve yayınlama kayıtları sonraki committe gönderilecek.

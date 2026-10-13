@@ -1,0 +1,36 @@
+Tarih: 13 Ekim 2026
+Kapsam: Yerel kaynak dosyası bütünlüğü; teknik ölçü doğrulaması değil.
+Dosya sayıları (rejected hariç): {'.pdf': 6, '.jpg': 15, '.png': 7, '.html': 13}
+Manifest girdileri: 42
+Hash kontrolü: tüm girdiler eşleşti.
+dcs_f16_manual.pdf: Pages:           774
+lm_block7072.pdf: Pages:           2
+nasa_elegance.pdf: Pages:           488
+ang_contrail_2017.pdf: Pages:           15
+nasa_cr4182.pdf: Pages:           119
+scang_4548327.jpg: JPEG 1999x1333
+scang_4548350.jpg: JPEG 1999x1333
+scang_4548358.jpg: JPEG 1999x1333
+scang_4548367.jpg: JPEG 1999x1333
+scang_4548370.jpg: JPEG 2000x1333
+scang_4548379.jpg: JPEG 1999x1333
+scang_4548393_c17.jpg: JPEG 1999x1333
+turkish_8913466.jpg: JPEG 1999x1333
+vtol_1.jpg: JPEG 1920x1080
+vtol_2.jpg: JPEG 1920x1080
+vtol_3.jpg: JPEG 1920x1080
+vtol_4.jpg: JPEG 1920x1080
+scang_top_7403357.jpg: JPEG 1999x1333
+scang_4548353.jpg: JPEG 1999x1333
+scang_4548377.jpg: JPEG 1999x1333
+scang_engine_7427090.jpg: JPEG 1999x1333
+nasa_cr186016.pdf: Pages:           76
+nasa_three_view_p42.png: PNG 1176x1500
+nasa_dimensioned_p86.png: PNG 1392x1800
+nasa_inlet_p95.png: PNG 1185x1800
+dcs_cockpit_p43.png: PNG 1351x1800
+dcs_instruments_p44.png: PNG 1351x1800
+dcs_left_console_p62.png: PNG 1351x1800
+dcs_right_console_p75.png: PNG 1351x1800
+Yerel Markdown bağlantıları: geçerli
+Hatalar: []

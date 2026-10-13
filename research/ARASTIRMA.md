@@ -70,3 +70,15 @@ Eski, erişilemeyen bağlantılar yalnızca araştırma izi olarak kaydedildi:
 ## Çalışma yöntemi
 
 VTOL VR yalnızca istenen görsel stil ve kokpit etkileşimi açısından referanstır. Model Blender'da özgün geometriyle oluşturulacak. Gerçek dış oranlar ve önemli kumanda yerleşimleri korunurken küçük yüzey ayrıntıları ve seyrek kullanılan kontroller sadeleştirilecek.
+
+## Referans toplama güncellemesi — 13 Ekim 2026
+
+Yeni kaynak kataloğu: [REFERANSLAR.md](REFERANSLAR.md). Önceki PDF erişim hataları tarihsel kayıttır. Yeni resmî e78 bağlantısından DCS kılavuzu indirildi; kapakta 16 August 2026 yazıyor. İncelenen bölümler katalogda sayfa numarasıyla belirtilmiştir; tüm PDF okunmuş sayılmaz. DCS motor paneli F110-GE-129 içindir; hedef PW229 için işlem/değer doğrulaması yerine geçmez.
+
+Dış görünüş ana seti 169th Fighter Wing'in 11 Temmuz 2018 Block 52 fotoğraflarıdır. Tek koltuklu küçük hava alığı görünümü incelendi; aynı set farklı seri numaraları içerir. 2022 üst gövde ve test motoru görselleri yalnızca yardımcıdır. Motor test caption'ı PW229 demez; birimden motor tipine eşleme çıkarımdır.
+
+NASA CR-4182 Fig.23 (basılı s.75 / PDF86) ölçü işaretli üç görünüş sağlar: 15,09 / 9,45 / 5,01 m. Kaynakça bunu 1979 NASA TP-1538'e bağlar; Block 52 üretim çizimi değildir. NASA CR-186016 Fig.1 genel siluet sağlar, ölçüsüzdür. NASA Elegance in Flight s.84 NSI/LNSI karşılaştırması ve Contrail Şubat 2017 PDF7–9 P&W/NSI ayrımı incelendi. Bu belgeler kesin kesit koordinatı vermez.
+
+USAF genel ölçü kaydı, NASA eski çizimi ve LM Block 70/72 kartının ölçüleri aynı değildir. Pitot/ray/zemin datum farkları bu oturumda kanıtlanamadı; önceki geçici ölçüler değişmedi. Kesin kokpit genişliği ve pilot göz noktası bulunamadı. Referans toplama tamamlandı diye bu ölçüler doğrulanmış sayılmayacak.
+
+Türk boyaması için DVIDS 8913466; görsel stil için yayıncının resmî VTOL VR Steam ekran görüntüleri incelendi. Renkler fotoğraf görünümüdür, doğrulanmış FS boya standardı değildir. Kaynak lisans/kredi ve inceleme sınırları katalogda kayıtlı.

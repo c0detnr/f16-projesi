@@ -1,6 +1,6 @@
 # Proje özeti ve sohbetler arası devam
 
-Bu kayıtlar 13 Ekim 2026'daki planlama sohbetinden hazırlanmıştır. Amaç hem kullanıcıya okunabilir bir özet sunmak hem de aynı proje klasörüne erişen başka Codex sohbetlerine bağlam bırakmaktır.
+Bu kayıtlar 13 Ekim 2026'daki planlama ve referans toplama çalışmalarından hazırlanmıştır. Amaç hem kullanıcıya okunabilir bir özet sunmak hem de aynı proje klasörüne erişen başka Codex sohbetlerine bağlam bırakmaktır.
 
 ## Yapmak istediğimiz şey
 
@@ -24,6 +24,7 @@ Model daha sonra kokpite girilebilen, düğmelere basılabilen, HUD ve gösterge
 | Dosya | Kullanım |
 | --- | --- |
 | [PLAN.md](../PLAN.md) | Kabul edilen kapsam, teslimatlar ve kalite ölçütleri |
+| [REFERANSLAR.md](REFERANSLAR.md) | İndirilen referans paketi, sayfa indeksi, kullanım sınırları |
 | [ARASTIRMA.md](ARASTIRMA.md) | Mevcut teknik bulgular, kaynaklar ve erişim sorunları |
 | [TODO.md](TODO.md) | Tamamlanması gereken teknik araştırmalar |
 | [DURUM.md](DURUM.md) | Gerçekte tamamlanan işler ve sonraki adım |

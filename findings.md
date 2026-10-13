@@ -23,3 +23,11 @@ CR-4182 çiziminin Ref.38 kaynağı NASA TP-1538 (1979); böylece Block 52 üret
 Üst fotoğraf 7403357 görsel incelendi: kanat/LEX/kanopi/ön antenler, tanker arka gövdeyi örtüyor. 4548353 ve 4548377 ön-yan pilon/gövde profili sağlar. DCS s.63 doğrudan F110-GE-129 kontrol panelini anlatıyor: motor başlatma değerleri Block 52 için doğrudan alınmayacak.
 
 GitHub yayınlama kontrolü: proje kökü /home/mami/Projects/bl; toplam yaklaşık 96 MB. En büyük dosya DCS kılavuzu (58.324.381 bayt); mevcut tüm dosyalar 100 MB altında. GitHub hesabı Emirix; f16-projesi hedef deposu henüz mevcut değil.
+
+Kaynak kataloğu research/REFERANSLAR.md yazıldı. Motor test fotoğrafı görsel olarak incelendi: nozul yandan kısmen seçiliyor; yaprak/çap ölçüsünü doğrulayacak arka görünüş değil. Kesin ölçüler ve kokpit fiziksel ölçeği açık tutuldu.
+
+GitHub API kullanıcı sorgusu güncel hesabın c0detnr olduğunu doğruladı; gh auth status eski Emirix adını gösteriyordu. Public depo: https://github.com/c0detnr/f16-projesi (main).
+
+Son doğrulama başarılı: 6 PDF, 15 JPG, 7 PNG; kaynak hashleri ve yerel bağlantılar geçerli. Referans toplama bitti, tüm teknik araştırmanın tamamlandığı iddia edilmedi. research/references/DOGRULAMA.txt kayıtlandı.
+
+Ana model başlangıcı: mevcut .blend bulunmadı. Yerel NASA genel silueti ve SCANG fotoğrafları görsel olarak tekrar incelendi. DCS kokpitinde sağ side-stick, sol throttle, iki MFD ve merkezi ICP/HUD ana hacimleri esas alınacak. Fiziksel konumlar modelleme tahmini.
