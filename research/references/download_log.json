@@ -1,0 +1,248 @@
+[
+  {
+    "file": "dcs_f16_manual.pdf",
+    "url": "https://www.digitalcombatsimulator.com/upload/iblock/e78/33zl8132hi71d3tv0194vvkzpzl3mrr6/DCS%20F-16C%20Early%20Access%20Guide%20EN.pdf",
+    "status": 200,
+    "bytes": 58324381,
+    "sha256": "b26f89b715cd130f82798a2e8973a1b7dd52b4366007feb4c7a29677f248e7c5"
+  },
+  {
+    "file": "scang_4548370.html",
+    "url": "https://www.dvidshub.net/image/4548370/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90787,
+    "sha256": "cf82f092dd15979ccd538f4ab9872362d7c5c5f8d46564e3f1010bf445764153"
+  },
+  {
+    "file": "nozzle_169fw.html",
+    "url": "https://www.169fw.ang.af.mil/News/Article-Display/Article/454082/what-is-all-the-hush-about/",
+    "error": "403 Client Error: Forbidden for url: https://www.169fw.ang.af.mil/News/Article-Display/Article/454082/what-is-all-the-hush-about/"
+  },
+  {
+    "file": "hill_block52.html",
+    "url": "https://www.afmc.af.mil/News/Article-Display/Article/154929/hill-afb-unveils-converted-thunderbird/",
+    "error": "403 Client Error: Forbidden for url: https://www.afmc.af.mil/News/Article-Display/Article/154929/hill-afb-unveils-converted-thunderbird/"
+  },
+  {
+    "file": "turkish_8913466.html",
+    "url": "https://www.dvidshub.net/image/8913466/red-flag-nellis-25-2-take-offs",
+    "status": 200,
+    "bytes": 72107,
+    "sha256": "4f0a47ebc415f59b1c3dda86e2c5954634ab1e0474e94a67da152dec58fafcb2"
+  },
+  {
+    "file": "vtol_steam.html",
+    "url": "https://store.steampowered.com/app/667970/VTOL_VR/?l=english",
+    "status": 200,
+    "bytes": 153528,
+    "sha256": "029cc08d68063a3368565bd2512b8e06b0e2c8caf79b360afc6e6dfdf05a0e87"
+  },
+  {
+    "file": "usaf_facts.pdf",
+    "url": "https://www.138fw.ang.af.mil/Portals/34/documents/F-16%20Fact%20Sheet%20Small.pdf",
+    "error": "403 Client Error: Forbidden for url: https://www.138fw.ang.af.mil/Portals/34/documents/F-16%20Fact%20Sheet%20Small.pdf"
+  },
+  {
+    "file": "lm_block7072.pdf",
+    "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-16/F-16_Product_Card/FG19-00608_010_Product_Card_F-16_Block_7072_media.pdf",
+    "status": 200,
+    "bytes": 4438419,
+    "sha256": "01346a9c2d0604edb88649c9067dd26456c6b807dad82592e114e71f442d19c4"
+  },
+  {
+    "file": "nasa_elegance.pdf",
+    "url": "https://www.nasa.gov/wp-content/uploads/2015/06/elegance_in_flight.pdf",
+    "status": 200,
+    "bytes": 5907611,
+    "sha256": "e77023232b8f4e057049e63edaa48ba7ea40e855ea9adaa5b9e653ec2142510f"
+  },
+  {
+    "file": "ang_contrail_2017.pdf",
+    "url": "https://media-cdn.dvidshub.net/pubs/pdf_31964.pdf",
+    "status": 200,
+    "bytes": 6020208,
+    "sha256": "8151119e01bbfa44a92d80d9eacea29d360a852c9d30f9e1ce103ee134d69632"
+  },
+  {
+    "file": "nasa_cr4182.pdf",
+    "url": "https://ntrs.nasa.gov/api/citations/19880019507/downloads/19880019507.pdf",
+    "status": 200,
+    "bytes": 5585287,
+    "sha256": "9ac9b26af736cb00d55f76582f786580e8fbf6817bcc1137644d02380edbd9e1"
+  },
+  {
+    "file": "scang_4548327.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548327/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 738673,
+    "sha256": "41529a40bf3ae5baa37db024a766850dc32fd7d72c644252e7b8266e55a68184"
+  },
+  {
+    "file": "scang_4548350.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548350/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 513071,
+    "sha256": "f76e9e78c0bca37d6c3e03a2a1e7ffced9ac5ee89ae49fabf6db6cf7a9e328bf"
+  },
+  {
+    "file": "scang_4548358.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548358/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 562931,
+    "sha256": "534290992316a8308a3a4b5d67f3285bfdc2e9914c050cad9fdd18ca40a771e9"
+  },
+  {
+    "file": "scang_4548367.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548367/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 291712,
+    "sha256": "1f7b1ca98b76e0db484494b90f778e0be585eb59417ee2cd48c1fb2e429f55ca"
+  },
+  {
+    "file": "scang_4548370.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548370/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 355634,
+    "sha256": "72984dec7d689b27ef2f05cc573e583a31da61e89c18e4620d5ca0af654a03bb"
+  },
+  {
+    "file": "scang_4548379.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548379/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 736423,
+    "sha256": "4406df466d994c21b8b1abe05597c58d20704565640a01d4d715b7189a60a861"
+  },
+  {
+    "file": "scang_4548393.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548393/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 368913,
+    "sha256": "58358c07ad76a4e32dadad635f5336c5ed62bb058fb78d41a75ce6d724e7e25f"
+  },
+  {
+    "file": "turkish_8913466.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2503/8913466/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 464137,
+    "sha256": "dd19bf5bcd6dc4dda2a1bc7c6b1486b46525c353ab7cd337f39359b307983b71"
+  },
+  {
+    "file": "vtol_1.jpg",
+    "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667970/ss_853f753c2b8ea8b75335a91e3a0b95364bac3fe9.1920x1080.jpg?t=1786041518",
+    "status": 200,
+    "bytes": 302050,
+    "sha256": "175a258db69d95cba3b44a8a27fb77c6835ecbe4de28f8c9abb5e408aee732fc"
+  },
+  {
+    "file": "vtol_2.jpg",
+    "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667970/ss_9b2215e24860c0ae2d0b601e1661c5ec6ddbf62d.1920x1080.jpg?t=1786041518",
+    "status": 200,
+    "bytes": 345670,
+    "sha256": "a82af698dd02439300621acab57a71e945024368de0bf8e9b9c760e0d7590b9d"
+  },
+  {
+    "file": "vtol_3.jpg",
+    "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667970/ss_68d2d960754b6b36b16b68d8adf3bb3482ba08c5.1920x1080.jpg?t=1786041518",
+    "status": 200,
+    "bytes": 462648,
+    "sha256": "69645333fdd0b853bc28761e7f15fcd76d27dfe87e0e7d409781d606c1a19c1e"
+  },
+  {
+    "file": "vtol_4.jpg",
+    "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667970/ss_8c02ce5f6ea124a250a03b2b4ea1933367ab4c1c.1920x1080.jpg?t=1786041518",
+    "status": 200,
+    "bytes": 381808,
+    "sha256": "c84877a375f23251f966f057a6115b59badddb734571ee53c99232e1cbd5a9f4"
+  },
+  {
+    "file": "scang_top_7403357.html",
+    "url": "https://www.dvidshub.net/image/7403357/scang-participates-relampago-vii",
+    "status": 200,
+    "bytes": 86771,
+    "sha256": "2afbb8df30e4e480a5871b54358d55069a238375be85cdd003f8023172cd2015"
+  },
+  {
+    "file": "scang_top_7403357.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2209/7403357/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 584179,
+    "sha256": "dc3365378ff73d52e03d9448dd2a992fcfda7a173f5ccbd93e4d3293a11730ab"
+  },
+  {
+    "file": "scang_4548353.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548353/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 569057,
+    "sha256": "960d1048272a3da738cd4aea157d5d9becde2e6d9b7f3c307da48dd51efc2d48"
+  },
+  {
+    "file": "scang_4548377.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1807/4548377/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 781767,
+    "sha256": "c308735eb9c278b588455add722232ddb67d4c7369a9f052bfa27b80edbc0277"
+  },
+  {
+    "file": "scang_4548327.html",
+    "url": "https://www.dvidshub.net/image/4548327/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90696,
+    "sha256": "b5978e29dcbc901fad199cebe58541be91559a6da805db0ae57bbbf67e5724c5"
+  },
+  {
+    "file": "scang_4548350.html",
+    "url": "https://www.dvidshub.net/image/4548350/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90652,
+    "sha256": "1ac67d6409a2fe39346f9d623a46182dbceb173f929c4e0a22e3d18e23266aa0"
+  },
+  {
+    "file": "scang_4548353.html",
+    "url": "https://www.dvidshub.net/image/4548353/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90782,
+    "sha256": "f393b8ddf6f1f3c6baceb62bc817c620ec6d3d470a21f523a787f4e8c516be22"
+  },
+  {
+    "file": "scang_4548358.html",
+    "url": "https://www.dvidshub.net/image/4548358/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90690,
+    "sha256": "e535b2d6bea85dc7a5041e07b9ff81d5de0ab06485301710ad25b9bd4eb9fca7"
+  },
+  {
+    "file": "scang_4548367.html",
+    "url": "https://www.dvidshub.net/image/4548367/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90735,
+    "sha256": "831e4b9e09e75101ca0e021974b757335c2c9f7bbad45059aa1f2d0338479266"
+  },
+  {
+    "file": "scang_4548377.html",
+    "url": "https://www.dvidshub.net/image/4548377/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90729,
+    "sha256": "100d1ece1d1542f323c3d30c6769b6c9b2bf522e07f21df191528138f9969e9e"
+  },
+  {
+    "file": "scang_4548379.html",
+    "url": "https://www.dvidshub.net/image/4548379/scang-f-16s-depart-mcentire-jngb-aef-deployment",
+    "status": 200,
+    "bytes": 90757,
+    "sha256": "6f4ca547e9da3e05c64eeb24319e621093417e6c883857270277fe76dbb78ed3"
+  },
+  {
+    "file": "scang_engine_7427090.html",
+    "url": "https://www.dvidshub.net/image/7427090/169th-maintenance-squadron-propulsion-shop-performs-test-run-f-16-fighter-jet-engine",
+    "status": 200,
+    "bytes": 71845,
+    "sha256": "ff81e58cc0368f7d648ff9254d8691ad8c4733c4c61c07f75aafdb8eacdbe577"
+  },
+  {
+    "file": "scang_engine_7427090.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2209/7427090/2000w_q95.jpg",
+    "status": 200,
+    "bytes": 584542,
+    "sha256": "a14e45bca1bedddd0804ed6e6b0be5c091688727b29e5383e6ba5c16a1da9959"
+  }
+]

@@ -1,0 +1,21 @@
+# Yerel kimlik bilgileri
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Geçici dosyalar ve önbellekler
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# Blender otomatik yedekleri
+*.blend[0-9]
+*.blend[0-9][0-9]

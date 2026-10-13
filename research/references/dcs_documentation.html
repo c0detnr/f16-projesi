@@ -1,0 +1,1339 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Documentation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.7">
+        <link rel="icon" href="/images/favicon.ico">
+                                                		                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {"CACHE_MODE":"HTMLCACHE","storageBlocks":[],"dynamicBlocks":{"iIjGFB":"9819f5329aaa","bx_cart_block":"007b8eda3031"},"AUTO_UPDATE":true,"AUTO_UPDATE_TTL":120,"version":2};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("X-Bitrix-Composite", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready && b){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}w.frameRequestFail = f;return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();var p = w.performance;if (p && p.addEventListener && p.getEntries && p.setResourceTimingBufferSize){var e = 'resourcetimingbufferfull';var h = function() {if (w.BX && w.BX.frameCache && w.BX.frameCache.frameDataInserted){p.removeEventListener(e, h);}else {p.setResourceTimingBufferSize(p.getEntries().length + 50);}};p.addEventListener(e, h);}})(window, document);</script>
+
+
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171829298123463" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16680629542320" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?178609084122500" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/altasib.errorsend/css/window.css?1686139095910" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/dcs/page_5517a942169a496f2e2230f6a7cd1a1f/page_5517a942169a496f2e2230f6a7cd1a1f_v1.css?178775205426879" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/dcs/template_6df37c1b6aca7c16d1fa861e5f7d3476/template_6df37c1b6aca7c16d1fa861e5f7d3476_v1.css?1791197681182043" type="text/css" rel="stylesheet" data-template-style="true"/>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"MAIN_BASELINE_BROWSER_OUTDATED":"Your browser is out of date. Update your browser for a better user experience.","MAIN_BASELINE_CLOSE":"Close","MAIN_BASELINE_DETAILS":"Learn more"});</script>
+
+<script type="extension/settings" data-extension="main.baseline">{"collectData":false,"helpUrl":"https:\/\/helpdesk.bitrix24.com\/open\/code_27229654\/","helpCode":"redirect=detail\u0026code=27229654"}</script>
+<script src="/bitrix/js/main/baseline/dist/baseline.bundle.min.js?17860908324439"></script>
+
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Loading...","JS_CORE_WINDOW_CLOSE":"Close","JS_CORE_WINDOW_EXPAND":"Expand","JS_CORE_WINDOW_NARROW":"Restore","JS_CORE_WINDOW_SAVE":"Save","JS_CORE_WINDOW_CANCEL":"Cancel","JS_CORE_H":"h","JS_CORE_M":"m","JS_CORE_S":"s","JS_CORE_NO_DATA":"- No data -","JSADM_AI_HIDE_EXTRA":"Hide extra items","JSADM_AI_ALL_NOTIF":"All notifications","JSADM_AUTH_REQ":"Authentication is required!","JS_CORE_WINDOW_AUTH":"Log In","JS_CORE_IMAGE_FULL":"Full size","JS_CORE_WINDOW_CONTINUE":"Continue"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1787751820181629"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.dexie","namespace":"BX.DexieExport","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fc","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1782367658,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1747735748});(window.BX||top.BX).message({"PULL_OLD_REVISION":"This page must be reloaded to ensure proper site functioning and to continue work."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script type="extension/settings" data-extension="ui.a11y">{"restoreLostFocus":false,"useFocusTrapInDialogs":false}</script>
+<script>BX.Runtime.registerExtension({"name":"ui.a11y","namespace":"BX.UI.Accessibility","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"en","FORMAT_DATE":"MM\/DD\/YYYY","FORMAT_DATETIME":"MM\/DD\/YYYY HH:MI:SS","COOKIE_PREFIX":"DCS","SERVER_TZ_OFFSET":"0","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/"});</script>
+
+
+<script src="/bitrix/js/ui/dexie/dist/dexie.bundle.min.js?1752936661102530"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.min.js?178098267210246"></script>
+<script src="/bitrix/js/pull/protobuf/protobuf.js?1595863361274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?159586336114190"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?16025798699240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?174773575049849"></script>
+<script src="/bitrix/js/ui/a11y/dist/a11y.bundle.min.js?178609083031192"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?178775182071647"></script>
+<script>BX.setJSList(["\/local\/templates\/dcs\/components\/bitrix\/news\/downloads\/eagle\/catalog.smart.filter\/.default\/script.js","\/js\/datepicker\/js\/bootstrap-datepicker.min.js","\/js\/datepicker\/locales\/bootstrap-datepicker.ru.min.js","\/js\/datepicker\/locales\/bootstrap-datepicker.fr.min.js","\/js\/datepicker\/locales\/bootstrap-datepicker.de.min.js","\/js\/datepicker\/locales\/bootstrap-datepicker.it.min.js","\/js\/datepicker\/locales\/bootstrap-datepicker.cn.min.js","\/js\/jquery.min.js","\/js\/fancybox\/jquery.fancybox.js","\/js\/jquery.confirm.min.js","\/local\/templates\/dcs\/bootstrap\/js\/bootstrap.min.js","\/js\/jquery.debounce.js","\/js\/plyr\/plyr.polyfilled.js","\/local\/components\/eagle\/userfiles.notifications\/templates\/header\/script.js","\/local\/templates\/dcs\/components\/bitrix\/sale.basket.basket.line\/.default\/script.js","\/bitrix\/components\/bitrix\/search.title\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/dcs\/components\/bitrix\/news\/downloads\/eagle\/catalog.smart.filter\/.default\/style.css","\/js\/datepicker\/css\/bootstrap-datepicker.min.css","\/local\/templates\/dcs\/components\/bitrix\/news\/downloads\/bitrix\/news.list\/.default\/style.css","\/local\/templates\/dcs\/bootstrap\/css\/bootstrap.min.css","\/js\/fancybox\/jquery.fancybox.css","\/js\/plyr\/plyr.css","\/local\/components\/eagle\/userfiles.notifications\/templates\/header\/style.css","\/local\/modules\/eagle\/js\/css\/steam.css","\/local\/templates\/dcs\/components\/bitrix\/system.auth.form\/login\/style.css","\/local\/templates\/dcs\/components\/bitrix\/search.title\/.default\/style.css","\/local\/templates\/dcs\/styles.css","\/local\/templates\/dcs\/template_styles.css"]);</script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/en/downloads/documentation/" hreflang="en" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.ru/ru/downloads/documentation/" hreflang="ru" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/de/downloads/documentation/" hreflang="de" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/cn/downloads/documentation/" hreflang="cn" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/fr/downloads/documentation/" hreflang="fr" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/it/downloads/documentation/" hreflang="it" />
+<link rel="alternate" href="https://www.digitalcombatsimulator.com/es/downloads/documentation/" hreflang="es" />
+<script type="text/javascript">
+            var ALXerrorSendMessages={
+                'head':'You found an error in the text',
+                'footer':'Send error message',
+                'comment':'Comment (optional)',
+                'TitleForm':'The error message',
+                'ButtonSend':'Send',
+                'LongText':'Error! You selected too much text.',
+                'LongText2':'Please try again.',
+                'cancel':'Cancel',
+                'senderror':'Error sending message!',
+                'close':'Close',
+                'text_ok':'Message sent.',
+                'text_ok2':'Thank you for your attention!'
+            }
+            </script>
+<script type='text/javascript' async src='/bitrix/js/altasib.errorsend/error.js'></script>
+
+
+
+<script  src="/bitrix/cache/js/s1/dcs/template_359dcb2ea1fab287250505999e2373c4/template_359dcb2ea1fab287250505999e2373c4_v1.js?1787751828305764"></script>
+<script  src="/bitrix/cache/js/s1/dcs/page_2167188b9c8f33d0ab630e2e6a4f1217/page_2167188b9c8f33d0ab630e2e6a4f1217_v1.js?178775205444133"></script>
+
+        <!--[if lt IE 9]>
+        <script src="/js/html5shiv.js"></script>
+        <script src="/js/respond.min.js"></script>
+        <![endif]-->
+        <script>
+            $(document).ready(function() {
+                $(".fancybox").fancybox({helpers:{overlay:{locked:false}}});
+                $(".confirm").confirm({
+                    post: true,
+                    confirmButtonClass: "btn btn-primary",
+                    cancelButtonClass: "btn btn-default"
+                });
+            });
+        </script>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PEB8NMGB5"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-0PEB8NMGB5');
+            </script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-648324159"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-648324159');
+            </script>
+            <script>
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-PWZLVB5');
+            </script>
+                        <script>
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '905460721663283');
+                fbq('track', 'PageView');
+            </script>
+                                        <script>
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+                ym(20852101, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:false, trackHash:false });
+            </script>
+            <script async type="module" src="https://chat.rea.ch/script/9f6bec48-32c0-411f-ab45-326fa1b3611c"></script>
+            </head>
+<body>
+        <noscript><div><img src="https://mc.yandex.ru/watch/20852101" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWZLVB5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript><div><img src="https://www.facebook.com/tr?id=905460721663283&ev=PageView&noscript=1" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+            <div id="panel"></div>
+    <div class="navbar navbar-inverse" role="navigation" id="roof">
+        <div class="container">
+            <a href="/en" class="navbar-brand"><img src="/images/dcs-world-logo.svg" alt="Digital Combat Simulator World"></a>
+            <div class="pull-right navbar-lang"><a href="https://www.digitalcombatsimulator.com/en/downloads/documentation/"><img src="/local/templates/dcs/images/lang-en.png" alt="English"></a><a href="https://www.digitalcombatsimulator.ru/ru/downloads/documentation/"><img src="/local/templates/dcs/images/lang-ru.png" alt="Russian"></a><a href="https://www.digitalcombatsimulator.com/de/downloads/documentation/"><img src="/local/templates/dcs/images/lang-de.png" alt="German"></a><a href="https://www.digitalcombatsimulator.com/cn/downloads/documentation/"><img src="/local/templates/dcs/images/lang-cn.png" alt="Chinese"></a><a href="https://www.digitalcombatsimulator.com/fr/downloads/documentation/"><img src="/local/templates/dcs/images/lang-fr.png" alt="French"></a><a href="https://www.digitalcombatsimulator.com/it/downloads/documentation/"><img src="/local/templates/dcs/images/lang-it.png" alt="Italian"></a><a href="https://www.digitalcombatsimulator.com/es/downloads/documentation/"><img src="/local/templates/dcs/images/lang-es.png" alt="Spanish"></a></div>
+            <div class="pull-right navbar-user">
+                <span id="userfiles_notifications_block">
+    <div class="userfiles-notifications-display userfiles-notifications__hidden" id="bx_ufn_0U4aRJ">
+        <span class="userfiles-notifications__text-display">Notifications: </span>
+        <a href="javascript:void(0)"
+           class="userfiles-notifications__counter userfiles-notifications__button">0</a>        <span> / </span>
+    </div>
+</span>
+<div class="userfiles-notifications-popup-wrapper">
+    <div class="userfiles-notifications-popup" id="bx_ufn_0U4aRJ_popup">
+        <h2 class="userfiles-notifications-popup__heading">File updates notifications</h2>
+        <div class="userfiles-notifications-popup__lines">
+            <div class="userfiles-notifications-popup__line userfiles-notifications-popup-line userfiles-notifications-popup-line--template">
+                <div class="row userfiles-notifications-popup-line__label">
+                    <div class="col-xs-6 userfiles-notifications-popup-line__game">
+                    </div>
+                    <div class="col-xs-6 userfiles-notifications-popup-line__unit">
+                    </div>
+                </div>
+                <div class="row userfiles-notifications-popup-line__heading">
+                    <a class="userfiles-notifications-popup-line__title" target="_blank" href="#"></a>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 userfiles-notifications-popup-line__type">Type - </div>
+                    <div class="col-xs-6 userfiles-notifications-popup-line__author">Uploaded by - </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 no-padding userfiles-notifications-popup-line__text">
+                        <span class="userfiles-notifications-popup-line__name"></span>
+                        <span class="userfiles-notifications-popup-line__date-update"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="userfiles-notifications-popup-line__buttons">
+                        <a class="userfiles-notifications-popup__button userfiles-notifications-popup-line__button--open-file btn btn-primary"
+                           target="_blank"
+                           href="#">Detail</a>
+                        <a class="userfiles-notifications-popup__button userfiles-notifications-popup__button-delete-notification btn btn-default"
+                           href="javascript:void(0)">Mark as read</a>
+                        <a class="userfiles-notifications-popup__button userfiles-notifications-popup__button-unsubscribe btn btn-default"
+                           href="javascript:void(0)">Unsubscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="userfiles-notifications-popup__footer">
+            <a class="userfiles-notifications-popup__button userfiles-notifications-popup__button-mark-all-as-read btn btn-default"
+               href="javascript:void(0)">Mark all as read</a>
+        </div>
+    </div>
+</div>
+<script>
+    BX.ready(function () {
+        window.bx_ufn_0U4aRJ = new JCUserFilesNotifications({'blockId':'bx_ufn_0U4aRJ','popupId':'bx_ufn_0U4aRJ_popup','lineTextTemplateDescription':'#FILE_NAME# file\'s description has been updated at #DATE#.','lineTextTemplateFile':'#FILE_NAME#\'s file has been updated at #DATE#.','lineTextTemplateBoth':'File #FILE_NAME# has been updated at #DATE#.'});
+        window.bx_ufn_0U4aRJ.setNotifications([]);
+    });
+    BX.message({
+        'userfiles_notifications_error_pretext': 'Error: ',
+    });
+</script>                <div id="bxdynamic_iIjGFB_start" style="display:none"></div><span id="login-line"> 
+        <a href="javascript:void(0)" onclick="openAuthorizePopup()">Login</a>
+        </span>
+        <div id="bx_auth_popup_form" style="display:none;" class="bx_login_popup_form">
+    <form class="form-horizontal bx_auth_form" name="system_auth_form" method="post" target="_top" action="/en/downloads/documentation/?PAGEN_1=2">
+	<input type="hidden" name="sessid" id="sessid_2" value="" />    <input type="hidden" name="AUTH_FORM" value="Y" />
+    <input type="hidden" name="TYPE" value="AUTH" />
+        <input type="hidden" name="backurl" value="/en/downloads/documentation/?PAGEN_1=2" />
+            <div class="row">
+                        <div class="form-group">
+            <label for="USER_LOGIN" class="col-xs-3 control-label">Login</label>
+            <div class="col-xs-8">
+                <input type="text" class="form-control" id="USER_LOGIN" name="USER_LOGIN" maxlength="255">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="USER_PASSWORD" class="col-xs-3 control-label">Password</label>
+            <div class="col-xs-8">
+                <input type="password" class="form-control" id="USER_PASSWORD" name="USER_PASSWORD" maxlength="255">
+            </div>
+            <div class="col-xs-1" id="lock-icon">
+                            </div>
+        </div>
+                             <div class="form-group"><div class="col-xs-7 col-xs-offset-3"><input type="checkbox" id="AUTH_USER_REMEMBER" name="USER_REMEMBER" value="Y" checked/>&nbsp;<label for="AUTH_USER_REMEMBER">Remember me</label></div></div>
+            </div>
+    <div class="row text-center">
+        <div class="col-xs-6"><input type="submit" name="Login" class="btn btn-primary" value="Authorize" /></div>
+        <div class="col-xs-6">
+              <a href="/en/auth/?forgot_password=yes" rel="nofollow">Forgot your password?</a>
+              <a href="/en/auth/?register=yes" rel="nofollow">Register</a>
+        </div>
+    </div>
+</form>    </div>
+        <script>
+            function openAuthorizePopup()
+            {
+                var obPopupWin = BX.PopupWindowManager.create("AuthorizePopup", null, {
+                    autoHide: true,
+                    offsetLeft: 0,
+                    offsetTop: 0,
+                    overlay : true,
+                    closeByEsc: true,
+                    titleBar: false,
+                    closeIcon: {},
+                    content:'<div style="width:500px;height:250px; text-align: center;"><span style="position:absolute;left:50%; top:50%"><img src="/local/templates/dcs/components/bitrix/system.auth.form/.default/images/wait.gif"/></span></div>'
+                });
+                obPopupWin.popupContainer.className = 'popup-window-login';
+                obPopupWin.setContent(BX("bx_auth_popup_form"));
+                obPopupWin.show();
+                document.system_auth_form.USER_LOGIN.focus();
+            }
+			        </script>
+    <div id="bxdynamic_iIjGFB_end" style="display:none"></div>                /
+                <script>
+    var obEshopBasket = new JSEshopBasket("/local/templates/dcs/components/bitrix/sale.basket.basket.line/.default/ajax.php", "s1", "en");
+</script>
+<span id="bx_cart_block">
+<a href="/en/personal/cart/">Cart</a>: <span id="bx_cart_num">empty</span></span>            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse" role="navigation" id="top-menu" >
+        <div class="container">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-menu-list" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+<ul class="collapse navbar-collapse nav navbar-nav navbar-left" id="top-menu-list">
+<li><a href="/en/index.php">Home</a></li>
+<li class="dropdown"><a href="/en/news/">News</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="/en/news/changelog/">Changelog</a></li>
+<li class="dropdown"><a href="/en/news/newsletters/">Newsletters</a></li>
+</ul></li><li class="dropdown"><a href="/en/products/">Products</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="/en/products/world/">DCS World</a></li>
+<li class="dropdown"><a href="/en/products/planes/">Planes</a></li>
+<li class="dropdown"><a href="/en/products/helicopters/">Helicopters</a></li>
+<li class="dropdown"><a href="/en/products/terrains/">Terrains</a></li>
+<li class="dropdown"><a href="/en/products/campaigns/">Campaigns</a></li>
+<li class="dropdown"><a href="/en/products/other/">Other</a></li>
+</ul></li><li class="dropdown active"><a href="/en/downloads/">Downloads</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="/en/downloads/world/">DCS World</a></li>
+<li class="dropdown"><a href="/en/downloads/texture_templates/">Texture templates</a></li>
+<li class="dropdown"><a href="/en/downloads/documentation/">Documentation</a></li>
+<li class="dropdown"><a href="/en/downloads/screenshots/">Screenshots</a></li>
+<li class="dropdown"><a href="/en/files/">User files</a></li>
+</ul></li><li class="dropdown"><a href="/en/shop/">E-Shop</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="/en/shop/modules/">Modules</a></li>
+<li class="dropdown"><a href="/en/shop/terrains/">Terrains</a></li>
+<li class="dropdown"><a href="/en/shop/bundles/">Bundles</a></li>
+<li class="dropdown"><a href="/en/shop/campaigns/">Campaigns</a></li>
+</ul></li><li class="dropdown"><a href="/en/support/">Support</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="/en/links/">Useful Links</a></li>
+<li class="dropdown"><a href="/en/support/">User support</a></li>
+<li class="dropdown"><a href="/en/support/faq">Technical questions</a></li>
+<li class="dropdown"><a href="/en/support/miles_rules">Miles rules</a></li>
+<li class="dropdown"><a href="/en/support/license">License Agreement</a></li>
+<li class="dropdown"><a href="/en/support/guidelines">Third Party Guidelines</a></li>
+</ul></li><li><a href="https://forum.dcs.world" target="_blank">Forums</a></li>
+</ul>
+<div class="menu-clear-left"></div>            	    <div id="title-search" class="search-box hidden-xs hidden-sm">
+    <form class="form-title-search" action="/en/search/">
+    <div class="input-group form-title-search">
+        <input id="title-search-input" type="text" name="q" value="" placeholder="Search here" size="20" maxlength="50" autocomplete="off" class="form-control" />
+        <span class="input-group-btn">
+        <input name="s" type="submit" value="Search" class="btn btn-search" />
+        </span>
+    </div>
+    </form>
+    </div>
+<script>
+   var jsControl = 
+        new JCTitleSearch({
+            'AJAX_PAGE' : '/en/downloads/documentation/?PAGEN_1=2',
+            'CONTAINER_ID': 'title-search',
+            'INPUT_ID': 'title-search-input',
+            'MIN_QUERY_LEN': 2
+        });
+</script>
+        </div>
+    </div>
+<div class="container">
+        <h1>Documentation</h1>
+        <div id="crumbs"><a href="/en/" title="Home">Home</a>&nbsp;&gt;&nbsp;<a href="/en/downloads/" title="Downloads">Downloads</a>&nbsp;&gt;&nbsp;<span id="current">Documentation</span></div>    		<div class="row well bx-filter ">
+    <form name="arrFilter_form" action="/en/downloads/documentation/?PAGEN_1=2" method="get" class="form-horizontal">
+                <input type="hidden" name="PAGEN_1" id="PAGEN_1" value="2" />
+                <div class="row">
+                            <div class="col-sm-5 col-md-3 bx-filter-parameters-box">
+                    <span class="bx-filter-container-modef"></span>
+                    <div class="form-group">
+                                                        <div class="col-xs-12">
+                                    <label class="control-label margin-bottom">Aircraft</label>
+                                    <div class="bx-filter-select-container">
+                                        <div class="bx-filter-select-block" onclick="smartFilter.showDropDownPopup(this, '860')">
+                                            <div class="bx-filter-select-text" data-role="currentOption">
+                                                All                                            </div>
+                                            <div class="bx-filter-select-arrow"></div>
+                                            <input
+                                                style="display: none"
+                                                type="radio"
+                                                name="arrFilter_860"
+                                                id="all_arrFilter_860_182270293"
+                                                value=""
+                                            />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_182270293"
+                                                    value="182270293"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3839055993"
+                                                    value="3839055993"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2774594397"
+                                                    value="2774594397"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3263073602"
+                                                    value="3263073602"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_4061110126"
+                                                    value="4061110126"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3572905322"
+                                                    value="3572905322"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1061211871"
+                                                    value="1061211871"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_730099756"
+                                                    value="730099756"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_11084783"
+                                                    value="11084783"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_187267815"
+                                                    value="187267815"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2131946735"
+                                                    value="2131946735"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2791640498"
+                                                    value="2791640498"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1217935718"
+                                                    value="1217935718"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_961858331"
+                                                    value="961858331"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_4264202035"
+                                                    value="4264202035"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3739625866"
+                                                    value="3739625866"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1803354130"
+                                                    value="1803354130"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3695093275"
+                                                    value="3695093275"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3305785618"
+                                                    value="3305785618"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1769416210"
+                                                    value="1769416210"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2713045909"
+                                                    value="2713045909"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_302367843"
+                                                    value="302367843"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3991504923"
+                                                    value="3991504923"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1857890244"
+                                                    value="1857890244"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_958786165"
+                                                    value="958786165"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2423906173"
+                                                    value="2423906173"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_1848006473"
+                                                    value="1848006473"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2150119013"
+                                                    value="2150119013"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2657010493"
+                                                    value="2657010493"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_3871268055"
+                                                    value="3871268055"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_860"
+                                                    id="arrFilter_860_2286260454"
+                                                    value="2286260454"
+                                                                                                    />
+                                                                                        <div class="bx-filter-select-popup" data-role="dropdownContent" style="display: none;">
+                                                <ul>
+                                                    <li>
+                                                        <label for="all_arrFilter_860_182270293" class="bx-filter-param-label" data-role="label_all_arrFilter_860_182270293" onclick="smartFilter.selectDropDownItem(this, 'all_arrFilter_860_182270293')">
+                                                            All                                                        </label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_182270293" class="bx-filter-param-label" data-role="label_arrFilter_860_182270293" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_182270293')">A-10A (<span data-role="count_arrFilter_860_182270293">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3839055993" class="bx-filter-param-label" data-role="label_arrFilter_860_3839055993" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3839055993')">A-10C (<span data-role="count_arrFilter_860_3839055993">6</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2774594397" class="bx-filter-param-label" data-role="label_arrFilter_860_2774594397" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2774594397')">AH-64D (<span data-role="count_arrFilter_860_2774594397">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3263073602" class="bx-filter-param-label" data-role="label_arrFilter_860_3263073602" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3263073602')">AJS-37 (<span data-role="count_arrFilter_860_3263073602">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_4061110126" class="bx-filter-param-label" data-role="label_arrFilter_860_4061110126" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_4061110126')">AV-8B (<span data-role="count_arrFilter_860_4061110126">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3572905322" class="bx-filter-param-label" data-role="label_arrFilter_860_3572905322" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3572905322')">Bf 109 K-4 (<span data-role="count_arrFilter_860_3572905322">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1061211871" class="bx-filter-param-label" data-role="label_arrFilter_860_1061211871" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1061211871')">F-15 (<span data-role="count_arrFilter_860_1061211871">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_730099756" class="bx-filter-param-label" data-role="label_arrFilter_860_730099756" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_730099756')">F-15C (<span data-role="count_arrFilter_860_730099756">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_11084783" class="bx-filter-param-label" data-role="label_arrFilter_860_11084783" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_11084783')">F-16C (<span data-role="count_arrFilter_860_11084783">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_187267815" class="bx-filter-param-label" data-role="label_arrFilter_860_187267815" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_187267815')">F-5E (<span data-role="count_arrFilter_860_187267815">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2131946735" class="bx-filter-param-label" data-role="label_arrFilter_860_2131946735" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2131946735')">F-86F (<span data-role="count_arrFilter_860_2131946735">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2791640498" class="bx-filter-param-label" data-role="label_arrFilter_860_2791640498" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2791640498')">F/A-18C (<span data-role="count_arrFilter_860_2791640498">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1217935718" class="bx-filter-param-label" data-role="label_arrFilter_860_1217935718" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1217935718')">Fw 190 A-8 (<span data-role="count_arrFilter_860_1217935718">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_961858331" class="bx-filter-param-label" data-role="label_arrFilter_860_961858331" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_961858331')">Fw 190 D-9 (<span data-role="count_arrFilter_860_961858331">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_4264202035" class="bx-filter-param-label" data-role="label_arrFilter_860_4264202035" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_4264202035')">I-16 (<span data-role="count_arrFilter_860_4264202035">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3739625866" class="bx-filter-param-label" data-role="label_arrFilter_860_3739625866" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3739625866')">Ka-50 (<span data-role="count_arrFilter_860_3739625866">6</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1803354130" class="bx-filter-param-label" data-role="label_arrFilter_860_1803354130" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1803354130')">L-39 (<span data-role="count_arrFilter_860_1803354130">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3695093275" class="bx-filter-param-label" data-role="label_arrFilter_860_3695093275" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3695093275')">Mi-24 (<span data-role="count_arrFilter_860_3695093275">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3305785618" class="bx-filter-param-label" data-role="label_arrFilter_860_3305785618" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3305785618')">Mi-8MTV2 (<span data-role="count_arrFilter_860_3305785618">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1769416210" class="bx-filter-param-label" data-role="label_arrFilter_860_1769416210" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1769416210')">MiG-15bis (<span data-role="count_arrFilter_860_1769416210">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2713045909" class="bx-filter-param-label" data-role="label_arrFilter_860_2713045909" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2713045909')">MiG-21bis (<span data-role="count_arrFilter_860_2713045909">1</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_302367843" class="bx-filter-param-label" data-role="label_arrFilter_860_302367843" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_302367843')">MiG-29 (<span data-role="count_arrFilter_860_302367843">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3991504923" class="bx-filter-param-label" data-role="label_arrFilter_860_3991504923" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3991504923')">Mosquito FB VI (<span data-role="count_arrFilter_860_3991504923">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1857890244" class="bx-filter-param-label" data-role="label_arrFilter_860_1857890244" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1857890244')">P-47D (<span data-role="count_arrFilter_860_1857890244">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_958786165" class="bx-filter-param-label" data-role="label_arrFilter_860_958786165" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_958786165')">P-51D (<span data-role="count_arrFilter_860_958786165">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2423906173" class="bx-filter-param-label" data-role="label_arrFilter_860_2423906173" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2423906173')">Spitfire IX (<span data-role="count_arrFilter_860_2423906173">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_1848006473" class="bx-filter-param-label" data-role="label_arrFilter_860_1848006473" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_1848006473')">Su-25 (<span data-role="count_arrFilter_860_1848006473">4</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2150119013" class="bx-filter-param-label" data-role="label_arrFilter_860_2150119013" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2150119013')">Su-27 (<span data-role="count_arrFilter_860_2150119013">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2657010493" class="bx-filter-param-label" data-role="label_arrFilter_860_2657010493" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2657010493')">Su-33 (<span data-role="count_arrFilter_860_2657010493">2</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_3871268055" class="bx-filter-param-label" data-role="label_arrFilter_860_3871268055" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_3871268055')">UH-1H (<span data-role="count_arrFilter_860_3871268055">3</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_860_2286260454" class="bx-filter-param-label" data-role="label_arrFilter_860_2286260454" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_860_2286260454')">Yak-52 (<span data-role="count_arrFilter_860_2286260454">3</span>)</label>
+                                                    </li>
+                                                                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                </div>
+                            <div class="col-sm-5 col-md-3 bx-filter-parameters-box">
+                    <span class="bx-filter-container-modef"></span>
+                    <div class="form-group">
+                                                        <div class="col-xs-12">
+                                    <label class="control-label margin-bottom">Localization</label>
+                                    <div class="bx-filter-select-container">
+                                        <div class="bx-filter-select-block" onclick="smartFilter.showDropDownPopup(this, '861')">
+                                            <div class="bx-filter-select-text" data-role="currentOption">
+                                                All                                            </div>
+                                            <div class="bx-filter-select-arrow"></div>
+                                            <input
+                                                style="display: none"
+                                                type="radio"
+                                                name="arrFilter_861"
+                                                id="all_arrFilter_861_746783232"
+                                                value=""
+                                            />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_861"
+                                                    id="arrFilter_861_746783232"
+                                                    value="746783232"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_861"
+                                                    id="arrFilter_861_3949392245"
+                                                    value="3949392245"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_861"
+                                                    id="arrFilter_861_885880338"
+                                                    value="885880338"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_861"
+                                                    id="arrFilter_861_4221052692"
+                                                    value="4221052692"
+                                                                                                    />
+                                                                                            <input
+                                                    style="display: none"
+                                                    type="radio"
+                                                    name="arrFilter_861"
+                                                    id="arrFilter_861_1471769039"
+                                                    value="1471769039"
+                                                                                                    />
+                                                                                        <div class="bx-filter-select-popup" data-role="dropdownContent" style="display: none;">
+                                                <ul>
+                                                    <li>
+                                                        <label for="all_arrFilter_861_746783232" class="bx-filter-param-label" data-role="label_all_arrFilter_861_746783232" onclick="smartFilter.selectDropDownItem(this, 'all_arrFilter_861_746783232')">
+                                                            All                                                        </label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_861_746783232" class="bx-filter-param-label" data-role="label_arrFilter_861_746783232" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_861_746783232')">English (<span data-role="count_arrFilter_861_746783232">37</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_861_3949392245" class="bx-filter-param-label" data-role="label_arrFilter_861_3949392245" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_861_3949392245')">Russian (<span data-role="count_arrFilter_861_3949392245">29</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_861_885880338" class="bx-filter-param-label" data-role="label_arrFilter_861_885880338" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_861_885880338')">Deutsch (<span data-role="count_arrFilter_861_885880338">18</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_861_4221052692" class="bx-filter-param-label" data-role="label_arrFilter_861_4221052692" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_861_4221052692')">Chinese (<span data-role="count_arrFilter_861_4221052692">14</span>)</label>
+                                                    </li>
+                                                                                                    <li>
+                                                        <label for="arrFilter_861_1471769039" class="bx-filter-param-label" data-role="label_arrFilter_861_1471769039" onclick="smartFilter.selectDropDownItem(this, 'arrFilter_861_1471769039')">Italian (<span data-role="count_arrFilter_861_1471769039">1</span>)</label>
+                                                    </li>
+                                                                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                </div>
+                    </div>
+        <div class="col-xs-12">
+            <div class="form-group no-margin-bottom">
+                <input class="btn btn-primary pull-right margin-left" type="submit" id="set_filter" name="set_filter" value="Show"/>
+                <input class="btn btn-default pull-right" type="submit" id="del_filter" name="del_filter" value="Reset"/>
+                <div class="bx-filter-popup-result left" id="modef" style="display:none" style="display: inline-block;">
+                    Selected: <span id="modef_num">0</span>                    <span class="arrow"></span>
+                    <br/>
+                    <a href="/en/downloads/documentation/filter/clear/apply/" target="">Show</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+	var smartFilter = new JCSmartFilter('/en/downloads/documentation/?PAGEN_1=2', {'SEF_SET_FILTER_URL':'/en/downloads/documentation/filter/clear/apply/','SEF_DEL_FILTER_URL':'/en/downloads/documentation/filter/clear/apply/'});
+</script>
+	<div class="row equal">
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3314140">
+    <div class="well item-column">
+                    <h3>DCS: F-15C Eagle Flight Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/513/F15C_EN.PNG" alt="" title="DCS: F-15C Eagle Flight Manual" />
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/1ad/F-15C DCS Flaming Cliffs Flight Manual EN.pdf" class="btn btn-default" target="_blank" title="F-15C DCS Flaming Cliffs Flight Manual EN.pdf (11.84 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3314138">
+    <div class="well item-column">
+                    <h3>DCS: F-5E Flight Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/69a/F5_EN.PNG" alt="" title="DCS: F-5E Flight Manual" />
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/528/DCS F-5Е-3 Flight Manual_ENG.pdf" class="btn btn-default" target="_blank" title="DCS F-5Е-3 Flight Manual_ENG.pdf (20.43 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3314137">
+    <div class="well item-column">
+                    <h3>DCS: Bf 109 K4 Kurfürst Flight Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/b0f/Bf109K4_EN.PNG" alt="" title="DCS: Bf 109 K4 Kurfürst Flight Manual" />
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/46e/DCS Bf 109 K-4 Flight Manual EN.pdf" class="btn btn-default" target="_blank" title="DCS Bf 109 K-4 Flight Manual EN.pdf (10.38 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  no-padding-right equal item-column-wrap" id="bx_3218110189_3313019">
+    <div class="well item-column">
+                    <h3>DCS: F-16C Viper Early Access Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/4a6/Viper_Manual_Cover_EN.PNG" alt="" title="DCS: F-16C Viper Early Access Manual" />
+            </div>
+        <p class="margin-bottom">
+	        <p>Last update: 16.08.2026</p>
+    	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button" style="right:20px;">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/e78/33zl8132hi71d3tv0194vvkzpzl3mrr6/DCS F-16C Early Access Guide EN.pdf" class="btn btn-default" target="_blank" title="DCS F-16C Early Access Guide EN.pdf (55.62 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3312516">
+    <div class="well item-column">
+                    <h3>DCS: A-10C II Tank Killer Flight Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/268/Warthog_2_Front_Cover.PNG" alt="" title="DCS: A-10C II Tank Killer Flight Manual" />
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/715/t05fb1h8itdhcvcf6fyi3h5944fvv4fx/DCS_A-10C_II_Flight_Manual_EN.pdf" class="btn btn-default" target="_blank" title="DCS_A-10C_II_Flight_Manual_EN.pdf (32.67 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3310306">
+    <div class="well item-column">
+                    <h3>DCS: P-47D Thunderbolt Flight Manual</h3>
+                <div class="row">
+                    <img src="/upload/iblock/6e3/P47D_FM.PNG" alt="" title="DCS: P-47D Thunderbolt Flight Manual" />
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/ea1/DCS_P-47D_Flight_Manual_EN.pdf" class="btn btn-default" target="_blank" title="DCS_P-47D_Flight_Manual_EN.pdf (11.77 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3309802">
+    <div class="well item-column">
+                    <h3>DCS: F/A-18C Early Access Guide</h3>
+                <div class="row">
+                    <a href="/upload/iblock/8e4/e7t9fhhvcpa423p0y3q87p2ukx0ohw8r/%21%21%21HORNET.png" target="_blank" class="fancybox" title="DCS: F/A-18C Early Access Guide"><img src="/upload/iblock/fbc/0wtuyjsblo3fms1eqcjnmqu2sez5ibuc/%21%21%21HORNET.png" alt="DCS: F/A-18C Early Access Guide" title="DCS: F/A-18C Early Access Guide" /></a>
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/ea9/lxf69u2uk1fhqq7ndb55z9egzabe8hdg/DCS FA-18C Early Access Guide EN.pdf" class="btn btn-default" target="_blank" title="DCS FA-18C Early Access Guide EN.pdf (21.27 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  no-padding-right equal item-column-wrap" id="bx_3218110189_3309645">
+    <div class="well item-column">
+                    <h3><a href="/en/downloads/documentation/dcs-supercarrier_operations_guide_en/">DCS: Supercarrier Operations Guide</a></h3>
+                <div class="row">
+                    <a href="/upload/iblock/332/DCS_Supercarrier_Operations_Guide_EN.jpg" target="_blank" class="fancybox" title="DCS: Supercarrier Operations Guide"><img src="/upload/iblock/756/DCS_Supercarrier_Operations_Guide_EN.jpg" alt="DCS: Supercarrier Operations Guide" title="DCS: Supercarrier Operations Guide" /></a>
+            </div>
+        <p class="margin-bottom">
+	        <p>Last manual update: 20th November 2024<br></p>
+    	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button" style="right:20px;">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/e1b/430ooc582lpb0npynbsewan6omd5ohvs/DCS_Supercarrier_Operations_Guide_EN.pdf" class="btn btn-default" target="_blank" title="DCS_Supercarrier_Operations_Guide_EN.pdf (23.72 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_2211883">
+    <div class="well item-column">
+                    <h3>DCS: Mi-8MTV2 Magnificent Eight Flight Manual</h3>
+                <div class="row">
+                    <a href="/upload/iblock/23f/Mi8_FM_EN.jpg" target="_blank" class="fancybox" title="DCS: Mi-8MTV2 Magnificent Eight Flight Manual"><img src="/upload/iblock/757/Mi8_FM_EN.jpg" alt="DCS: Mi-8MTV2 Magnificent Eight Flight Manual" title="DCS: Mi-8MTV2 Magnificent Eight Flight Manual" /></a>
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/3a2/DCS-Mi-8MTV2_FlightManual_EN.pdf" class="btn btn-default" target="_blank" title="DCS-Mi-8MTV2_FlightManual_EN.pdf (46.49 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_1408684">
+    <div class="well item-column">
+                    <h3>DCS User Manual</h3>
+                <div class="row">
+                    <a href="/upload/iblock/fcb/DCS-User-Manual-EN-1.jpg" target="_blank" class="fancybox" title="DCS User Manual"><img src="/upload/iblock/e9d/DCS-User-Manual-EN-1.jpg" alt="DCS User Manual" title="DCS User Manual" /></a>
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/ed6/87v22jwd1xh51i3rgki944xsf503istq/DCS_User_Manual_EN_2020.pdf" class="btn btn-default" target="_blank" title="DCS_User_Manual_EN_2020.pdf (38.52 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_1408683">
+    <div class="well item-column">
+                    <h3>DCS World Controller Walk Through</h3>
+                <div class="row">
+                    <a href="/upload/iblock/7a8/DCS-World-Input-Controller-Walk-Through-EN-1.jpg" target="_blank" class="fancybox" title="DCS World Controller Walk Through"><img src="/upload/iblock/b22/DCS-World-Input-Controller-Walk-Through-EN-1.jpg" alt="DCS World Controller Walk Through" title="DCS World Controller Walk Through" /></a>
+            </div>
+        <p class="margin-bottom">
+		            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/65c/DCS_World_Input_Controller_Walk_Through_EN.pdf" class="btn btn-default" target="_blank" title="DCS_World_Input_Controller_Walk_Through_EN.pdf (1.33 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  no-padding-right equal item-column-wrap" id="bx_3218110189_1408486">
+    <div class="well item-column">
+                    <h3>DCS: P-51D Mustang Flight Manual</h3>
+                <div class="row">
+                    <a href="/upload/iblock/c19/mustang_manual.jpg" target="_blank" class="fancybox" title="DCS: P-51D Mustang Flight Manual"><img src="/upload/iblock/cc9/mustang_manual.jpg" alt="DCS: P-51D Mustang Flight Manual" title="DCS: P-51D Mustang Flight Manual" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 08.12.2011</p>
+	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button" style="right:20px;">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/aa2/DCS-P-51D_Flight_Manual_EN.pdf" class="btn btn-default" target="_blank" title="DCS-P-51D_Flight_Manual_EN.pdf (12.49 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_1408476">
+    <div class="well item-column">
+                    <h3>DCS: A-10C Warthog Flight Manual</h3>
+                <div class="row">
+                    <a href="/upload/iblock/ff0/DCS-A-10C_Flight_Manual_EN.jpg" target="_blank" class="fancybox" title="DCS: A-10C Warthog Flight Manual"><img src="/upload/iblock/b2e/DCS-A-10C_Flight_Manual_EN.jpg" alt="DCS: A-10C Warthog Flight Manual" title="DCS: A-10C Warthog Flight Manual" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 28.01.2011</p>
+	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/7aa/DCS A-10C Flight Manual EN.pdf" class="btn btn-default" target="_blank" title="DCS A-10C Flight Manual EN.pdf (30.72 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3348521">
+    <div class="well item-column">
+                    <h3>DCS: AH-64D Flight Manual EN</h3>
+                <div class="row">
+                    <img src="/upload/iblock/d4d/rcd5fbuhk2a3lp674ezlcktbcrkdh4vv/DCS%20AH64D%20Flight%20Manual%20EN.jpg" alt="" title="DCS: AH-64D Flight Manual EN" />
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 05.08.2026</p>
+	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/30e/j1dh7g3egpennjdngtub7uubwcqfgrrh/DCS AH-64D Flight Manual EN.pdf" class="btn btn-default" target="_blank" title="DCS AH-64D Flight Manual EN.pdf (56.37 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3346948">
+    <div class="well item-column">
+                    <h3>DCS: MiG-29A Early Access Manual EN</h3>
+                <div class="row">
+                    <a href="/upload/iblock/786/cabhyd17499rvu4jmbgqfoy4w05pmg16/DCS%20MiG-29%20Manual%20EN%20Cover.png" target="_blank" class="fancybox" title="DCS: MiG-29A Early Access Manual EN"><img src="/upload/iblock/000/l82fdi2k4yurbob7iygb5nhteejdwoah/DCS%20MiG-29%20Manual%20EN%20Cover.png" alt="DCS: MiG-29A Early Access Manual EN" title="DCS: MiG-29A Early Access Manual EN" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 17.09.2025</p>
+	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/aa2/ulzl67k42kj99ushy9m29hlvmtk0y2tg/DCS MiG-29A Early Access Manual EN.pdf" class="btn btn-default" target="_blank" title="DCS MiG-29A Early Access Manual EN.pdf (10.13 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  no-padding-right equal item-column-wrap" id="bx_3218110189_3339516">
+    <div class="well item-column">
+                    <h3><a href="/en/downloads/documentation/dcs-ch47f_early_access_guide_en/">DCS CH-47F Early Access Guide EN</a></h3>
+                <div class="row">
+                    <a href="/upload/iblock/ef7/32s05sdxnq7ym8bn3te9510909r8abux/CH47FGUIDE.png" target="_blank" class="fancybox" title="DCS CH-47F Early Access Guide EN"><img src="/upload/iblock/472/wgfkvchbfwxl3r2dpmuarrp31qzxffxd/CH47FGUIDE.png" alt="DCS CH-47F Early Access Guide EN" title="DCS CH-47F Early Access Guide EN" /></a>
+            </div>
+        <p class="margin-bottom">
+	        <p>Manual version: 15th July 2024</p>
+    	            <p>Localization: English</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button" style="right:20px;">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/0fd/n8rej5yziyy44qo42m81aluvij05fsk0/DCS CH-47F Early Access Guide EN.pdf" class="btn btn-default" target="_blank" title="DCS CH-47F Early Access Guide EN.pdf (10.02 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3334823">
+    <div class="well item-column">
+                    <h3>F-86F Руководство пилота</h3>
+                <div class="row">
+                    <a href="/upload/iblock/b9b/4qyo1gm9qsdja9y1zsff2vh7ligicuqb/F-86F-DVD-cover_700x1000px_v4.jpg" target="_blank" class="fancybox" title="F-86F Руководство пилота"><img src="/upload/iblock/e0f/73voiezuawihimmkxmgnwz2nvyu7vqpr/F-86F-DVD-cover_700x1000px_v4.jpg" alt="F-86F Руководство пилота" title="F-86F Руководство пилота" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 07.12.2023</p>
+	            <p>Localization: Russian</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/bcd/g0m2htdivij5kxzyfjlhfkxms7t44rp9/DCS F-86F Flight Manual RU.pdf" class="btn btn-default" target="_blank" title="DCS F-86F Flight Manual RU.pdf (25.76 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3334822">
+    <div class="well item-column">
+                    <h3>F/A-18C Руководство раннего доступа</h3>
+                <div class="row">
+                    <a href="/upload/iblock/e4f/vg8bpgo01wjs71ha2vzumpf5mim3yydx/DCS%20FA-18C%20Early%20Access%20Guide%20RU.jpg" target="_blank" class="fancybox" title="F/A-18C Руководство раннего доступа"><img src="/upload/iblock/288/okm6nkxd35gnpzcipvzhhtljobnsu8cs/DCS%20FA-18C%20Early%20Access%20Guide%20RU.jpg" alt="F/A-18C Руководство раннего доступа" title="F/A-18C Руководство раннего доступа" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 07.12.2023</p>
+	            <p>Localization: Russian</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/210/rmrrozdjqcx3q9zvkmbiwg0ywvm6qtig/DCS FA-18C Early Access Guide RU.pdf" class="btn btn-default" target="_blank" title="DCS FA-18C Early Access Guide RU.pdf (24.68 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  equal item-column-wrap" id="bx_3218110189_3334821">
+    <div class="well item-column">
+                    <h3>Горячие Скалы 3 Руководство пилота</h3>
+                <div class="row">
+                    <a href="/upload/iblock/4dd/ty1vpomsd4brmitwwej4pi13v2br2rwp/DCS%20FC3%20Flight%20Manual%20RU.jpg" target="_blank" class="fancybox" title="Горячие Скалы 3 Руководство пилота"><img src="/upload/iblock/295/2c9rr9nggvjf2dpvizw9yfnuxvlk69fg/DCS%20FC3%20Flight%20Manual%20RU.jpg" alt="Горячие Скалы 3 Руководство пилота" title="Горячие Скалы 3 Руководство пилота" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 07.12.2023</p>
+	            <p>Localization: Russian</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/a43/j2ginc540ntqmnp9v2x1456wy2kjdzai/DCS FC3 Flight Manual RU.pdf" class="btn btn-default" target="_blank" title="DCS FC3 Flight Manual RU.pdf (16.81 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+<div class="col-xs-12 col-md-3 margin-bottom  no-padding-right equal item-column-wrap" id="bx_3218110189_3334820">
+    <div class="well item-column">
+                    <h3>Су-27 Flanker Руководство пилота</h3>
+                <div class="row">
+                    <a href="/upload/iblock/799/3u0immf02qvp32rw4q822eyzq66qibhd/Su-27%20DCS%20Flaming%20Cliffs%20Flight%20Manual%20RU.jpg" target="_blank" class="fancybox" title="Су-27 Flanker Руководство пилота"><img src="/upload/iblock/65c/jlfqm5k1gr3pgd419a96jlj7zefr7ibf/Su-27%20DCS%20Flaming%20Cliffs%20Flight%20Manual%20RU.jpg" alt="Су-27 Flanker Руководство пилота" title="Су-27 Flanker Руководство пилота" /></a>
+            </div>
+        <p class="margin-bottom">
+		        <p>Date: 07.12.2023</p>
+	            <p>Localization: Russian</p>
+        </p>
+            <div class="row" style="margin-top:30px">
+            <div class="button" style="right:20px;">
+                            <div class="margin-top">
+                                <a href="/upload/iblock/52b/xl0120sm3c76cabkof8rduvxijjwko0h/Su-27 DCS Flaming Cliffs Flight Manual RU.pdf" class="btn btn-default" target="_blank" title="Su-27 DCS Flaming Cliffs Flight Manual RU.pdf (9.3 Mb)">Download</a>
+                </div>
+                        </div>
+        </div>
+        </div>
+</div>
+</div>
+<div class="pagination">  
+&larr;&nbsp;ctrl&nbsp;
+			<a href="/en/downloads/documentation/?%3Bmdrv=www.digitalcombatsimulator.com" class="page-link" id="_previous_page">Prev.</a>
+				<a href="/en/downloads/documentation/?%3Bmdrv=www.digitalcombatsimulator.com" class="page-link">1</a>
+			<span>2</span>
+			<a href="/en/downloads/documentation/?PAGEN_1=3&amp;%3Bmdrv=www.digitalcombatsimulator.com" class="page-link">3</a>
+			<a href="/en/downloads/documentation/?PAGEN_1=4&amp;%3Bmdrv=www.digitalcombatsimulator.com" class="page-link">4</a>
+			<a href="/en/downloads/documentation/?PAGEN_1=5&amp;%3Bmdrv=www.digitalcombatsimulator.com" class="page-link">5</a>
+		<a href="/en/downloads/documentation/?PAGEN_1=3&amp;%3Bmdrv=www.digitalcombatsimulator.com" class="page-link" id="_next_page">Next</a>
+&nbsp;ctrl&rarr;&nbsp;
+	<a href="/en/downloads/documentation/?SHOWALL_1=1&amp;%3Bmdrv=www.digitalcombatsimulator.com" rel="nofollow" class="page-link">All</a>
+	</div>
+<script type="text/javascript">
+    BX.bind(document, "keydown", function (event) {
+
+        event = event || window.event;
+        if (!event.ctrlKey)
+            return;
+
+        var target = event.target || event.srcElement;
+        if (target && target.nodeName && (target.nodeName.toUpperCase() == "INPUT" || target.nodeName.toUpperCase() == "TEXTAREA"))
+            return;
+
+        var key = (event.keyCode ? event.keyCode : (event.which ? event.which : null));
+        if (!key)
+            return;
+
+        var link = null;
+        if (key == 39)
+            link = BX('_next_page');
+        else if (key == 37)
+            link = BX('_previous_page');
+
+        if (link && link.href)
+            document.location = link.href;
+    });
+</script></div>
+        <div id="social-buttons-block" class="row">
+        <div class="col-xs-12">
+            <div class="container">           
+    FOLLOW US
+    <ul id="follow-list">
+        <li>
+            <a href="https://www.facebook.com/eagle.dynamics" target="_blank">
+                <img src="/local/templates/dcs/images/facebook.png" alt="Facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://discord.gg/eagledynamics" target="_blank">
+                <img src="/local/templates/dcs/images/discord.png" alt="Discord">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/digitalcombatsimulator" target="_blank">
+                <img src="/local/templates/dcs/images/instagram.png" alt="Instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/eagledynamics" target="_blank">
+                <img src="/local/templates/dcs/images/twitter.png" alt="Twitter">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/user/eagledynamicstv" target="_blank">
+                <img src="/local/templates/dcs/images/youtube.png" alt="YouTube">
+            </a>
+        </li>
+    </ul>
+</div>        </div>
+    </div>
+        <div class="row" id="awards-block">
+        <div class="col-xs-12">
+                        <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic1.png" alt="IGN.COM Editors' Choice award" title="IGN.COM Editors' Choice award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic2.png" alt="Computer Active Buy It! 5 stars award" title="Computer Active Buy It! 5 stars award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic3.png" alt="PC Gamer Editor's Choice 5 stars award" title="PC Gamer Editor's Choice 5 stars award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic4.png" alt="'Tipp der Redaktion' from the German magazine FS Magazin" title="'Tipp der Redaktion' from the German magazine FS Magazin"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic5.png" alt="Eurogamer award" title="Eurogamer award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic6.png" alt="PC Pilot Classic Product award" title="PC Pilot Classic Product award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic7.png" alt="PC Pilot Platinum award" title="PC Pilot Platinum award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic8.png" alt="Microsim award" title="Microsim award"/>
+            </div>
+            <div class="img-link">
+                <img src="/local/templates/dcs/images/button/pic9.png" alt="Swedish award" title="Swedish award"/>
+            </div>
+        </div>
+    </div> 
+        <footer>
+            <ul class="main-list">
+<li><div class="bottom-block">
+<p><a href="/en/products/">Products</a></p>
+<ul class="inner">
+<li><a href="/en/products/world/">DCS World</a></li>
+<li><a href="/en/products/planes/">Planes</a></li>
+<li><a href="/en/products/helicopters/">Helicopters</a></li>
+<li><a href="/en/products/terrains/">Terrains</a></li>
+<li><a href="/en/products/campaigns/">Campaigns</a></li>
+<li><a href="/en/products/other/">Other</a></li>
+</ul></div></li><li><div class="bottom-block">
+<p><a href="/en/downloads/">Downloads</a></p>
+<ul class="inner">
+<li><a href="/en/downloads/world/">DCS World</a></li>
+<li><a href="/en/downloads/texture_templates/">Texture templates</a></li>
+<li><a href="/en/downloads/documentation/">Documentation</a></li>
+<li><a href="/en/downloads/screenshots/">Screenshots</a></li>
+<li><a href="/en/files/">User files</a></li>
+</ul></div></li><li><div class="bottom-block">
+<p><a href="/en/support/">Support</a></p>
+<ul class="inner">
+<li><a href="/en/links/">Useful Links</a></li>
+<li><a href="/en/support/">Tickets</a></li>
+<li><a href="/en/support/faq">Technical questions</a></li>
+<li><a href="https://forum.dcs.world" target="_blank">Forums</a></li>
+<li><a href="/en/contacts">Contacts</a></li>
+<li><a href="/en/support/guidelines">Third Party Guidelines</a></li>
+</ul></div></li><li><div class="bottom-block">
+<p><a href="/en/legal/">Legal</a></p>
+<ul class="inner">
+<li><a href="/en/legal/">Legal information</a></li>
+<li><a href="/en/legal/gdpr.php">Privacy policy EU</a></li>
+<li><a href="/en/legal/terms_of_service.php">Terms of service</a></li>
+<li><a href="/en/legal/privacy_policy.php">Privacy and cookie policy</a></li>
+</ul></div></li>            <li><div class="bottom-block"><p><a href="/en/vacancies/">Vacancies</a></p></div></li>
+</ul> 
+        </footer>
+        <div id="cookies" class="row hidden">
+	<script type="text/javascript">function closeCookies(){$("#cookies").addClass("hidden")}function applyCookies(){closeCookies();var e=new Date((new Date).getTime()+31536e6);document.cookie="APPLY_COOKIES=Y; path=/; expires="+e.toUTCString()}function getCookie(e){var o=document.cookie.match(new RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return o?decodeURIComponent(o[1]):void 0}$(document).ready(function(){"Y"!=getCookie("APPLY_COOKIES")&&$("#cookies").removeClass("hidden")});</script>
+    <div class="pull-right padding-left">
+        <button type="button" class="close" onclick="return applyCookies(this);" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="container">
+        <span>We use cookies to provide you with a better onsite experience. By continuing to browse the site you are agreeing to our use of cookies in accordance with our <a href="/en/legal/privacy_policy.php">Cookie Policy</a>.</span>
+    </div>
+</div>        <div id="ground" class="row">
+            <div class="col-md-7 hidden-sm hidden-xs error"><small>Found a typo? Select it with your mouse and press Ctrl+Enter.</small></div>
+            <div class="col-sm-12 col-md-5 copyright"><small>&copy; 1991-2026, Eagle Dynamics SA</small></div>
+        </div>
+        <div id="bx-composite-banner"></div>
+</body>
+</html><!--5b3ebff0bf69dd381e971587d8c83c2e-->
