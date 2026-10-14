@@ -1,0 +1,57 @@
+00:01.789  blend            | Read blend: "/home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend"
+{
+  "file": "/home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend",
+  "opened_successfully": true,
+  "asset_objects": 170,
+  "evaluated_vertices": 3885,
+  "evaluated_triangles": 5654,
+  "bbox_size_m": [
+    9.95680046081543,
+    15.066932201385498,
+    4.876800065299027
+  ],
+  "external_texture_files": [],
+  "errors": [],
+  "checks": [
+    "required main parts",
+    "finite geometry",
+    "nonzero polygon area",
+    "metric scale",
+    "provisional model envelope",
+    "external dependencies"
+  ],
+  "limits": [
+    "No exact reference fit or collision/mechanism validation",
+    "No Iris Xe game benchmark"
+  ]
+}
+00:02.060  blend            | Read blend: "/home/mami/Projects/bl/output/model/f16c_block52_main_v02.blend"
+{
+  "file": "/home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend",
+  "source": "/home/mami/Projects/bl/output/model/f16c_block52_main_v02.blend",
+  "source_hash_preserved": true,
+  "unchanged_objects_verified": 150,
+  "expected_changed_objects": 33,
+  "missing_objects": [],
+  "unexpected_changes": [],
+  "seam_max_distance_m": {
+    "shoulder_body_L": 0.0,
+    "shoulder_glass_L": 0.0,
+    "shoulder_body_R": 0.0,
+    "shoulder_glass_R": 0.0,
+    "intake_lip_fairing": 0.0,
+    "radome_body": 0.0
+  },
+  "bilateral_max_distance_m": {
+    "Wing": 0.0,
+    "LEX": 0.0,
+    "Flaperon": 0.0,
+    "Stabilator": 0.0,
+    "Cockpit_shoulder": 0.0
+  },
+  "errors": [],
+  "limits": "Shared seam and object-preservation checks only, not comprehensive intersections or engineering accuracy."
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-09-01 00:24:57)
+
+Blender quit

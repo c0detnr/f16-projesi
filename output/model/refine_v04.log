@@ -1,0 +1,12 @@
+00:00.895  blend            | Read blend: "/home/mami/Projects/bl/output/model/f16c_block52_main_v02.blend"
+Info: Saved as "f16c_block52_main_v04.blend"
+REFINED /home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend
+00:14.881  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_exterior.png'
+00:23.158  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_side.png'
+00:36.555  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_top.png'
+00:44.377  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_front.png'
+00:59.376  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_forward_join.png'
+01:19.676  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v04_cockpit.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-09-01 00:24:57)
+
+Blender quit

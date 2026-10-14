@@ -9,3 +9,5 @@ Temel tercihler: gerçek ölçekte tek koltuklu F-16C Block 52, VTOL VR tarzınd
 Geçici ölçüleri ve önerilen düğme listesini doğrulanmış teknik veri gibi kullanma. Araştırmada tahmin, arama sonucu ve incelenmiş belgeyi açıkça ayır. Planlanmış işleri tamamlanmış sayma.
 
 Anlamlı iş aşamalarından sonra `research/DURUM.md` dosyasını gerçek çıktılar, doğrulamalar ve sıradaki adımla güncelle. Yeni kullanıcı kararlarını `PLAN.md` içine işle; yeni bulgu ve eksik araştırmaları ilgili araştırma dosyalarına kaydet. Mevcut Blender dosyasında kullanıcı değişiklikleri varsa yeniden üretmeden önce bunları koru.
+
+Kullanıcı Codex'in doğal, özgün konuşma tonunu tercih ediyor; bu tonu koru. Anlamlı bir iş aşamasını tamamladıktan sonra sıradaki aşama için kısa ve somut öneriler sun.

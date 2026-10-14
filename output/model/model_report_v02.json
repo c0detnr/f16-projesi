@@ -1,0 +1,33 @@
+{
+  "blend": "f16c_block52_main_v02.blend",
+  "units": "meters",
+  "axis": "+X left, +Y aft, +Z up",
+  "measurement_status": "provisional, not verified Block52 dimensions",
+  "mesh_objects": 163,
+  "vertices": 2495,
+  "base_triangles": 3684,
+  "bbox_min": [
+    -4.978400230407715,
+    -7.531099796295166,
+    -5.026810079300503e-09
+  ],
+  "bbox_max": [
+    4.978400230407715,
+    7.531099796295166,
+    4.876800060272217
+  ],
+  "bbox_size": [
+    9.95680046081543,
+    15.062199592590332,
+    4.876800065299027
+  ],
+  "materials": 19,
+  "external_texture_images": 0,
+  "open_surfaces_intentional": [
+    "cockpit opening",
+    "canopy bubble",
+    "intake tunnel",
+    "nozzle petals and tunnel"
+  ],
+  "note": "Base count excludes text/curves/modifier evaluation. Evaluated count checked on reopen."
+}

@@ -1,0 +1,12 @@
+00:01.399  blend            | Read blend: "/home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend"
+/home/mami/Projects/bl/scripts/detail_cockpit.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=M.new('Safety_yellow');m.diffuse_color=(.9,.6,.04,1);m.use_nodes=True
+Info: Saved as "f16c_block52_main_v06.blend"
+COCKPIT_SAVED /home/mami/Projects/bl/output/model/f16c_block52_main_v06.blend CONTROLS 88
+00:50.117  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v06_cockpit.png'
+01:20.652  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v06_console_l.png'
+01:51.539  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v06_console_r.png'
+02:22.228  render           | Saved: '/home/mami/Projects/bl/output/previews/f16_v06_cockpit_overview.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-09-01 00:24:57)
+
+Blender quit

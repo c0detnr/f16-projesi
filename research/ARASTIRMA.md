@@ -82,3 +82,25 @@ NASA CR-4182 Fig.23 (basılı s.75 / PDF86) ölçü işaretli üç görünüş s
 USAF genel ölçü kaydı, NASA eski çizimi ve LM Block 70/72 kartının ölçüleri aynı değildir. Pitot/ray/zemin datum farkları bu oturumda kanıtlanamadı; önceki geçici ölçüler değişmedi. Kesin kokpit genişliği ve pilot göz noktası bulunamadı. Referans toplama tamamlandı diye bu ölçüler doğrulanmış sayılmayacak.
 
 Türk boyaması için DVIDS 8913466; görsel stil için yayıncının resmî VTOL VR Steam ekran görüntüleri incelendi. Renkler fotoğraf görünümüdür, doğrulanmış FS boya standardı değildir. Kaynak lisans/kredi ve inceleme sınırları katalogda kayıtlı.
+
+
+## Ana modelde kullanılan yorumlar — 13 Ekim 2026
+
+Yeni kullanıcı talimatıyla ana modelleme başlatıldı. Yeni bir kesin teknik ölçü kaynağı bulunmuş sayılmıyor. Yerel NASA genel üç görünüş, SCANG 4548370 yan ve 7403357 üst fotoğrafı, DCS kokpit s.43 tekrar görsel incelendi. Siluet, hava alığı, kanopi ve kanat/kuyruk ana yerleşimleri bu referanslardan yorumlandı.
+
+`output/model/f16c_block52_main_v02.blend` içinde genel geçici 15,0622 / 9,9568 / 4,8768 m girdileri kullanıldı. Blender metrik ölçeği ve modelin bu girdilere uyumu kontrolü, Block 52 teknik değerlerini doğrulama değildir. Üretim kesitleri ve kokpit konumları betikte modelleme tahminidir. Ölçüm uçları model için tanımlandı: pitot–nozul, ray dış uçları, açık iniş takımı zemini–kuyruk ucu; gerçek kaynakların aynı tanımı kullandığı kanıtlanmadı.
+
+Kokpit ana düzeni: solda gaz kolu, sağda side-stick ve DED; çift MFD, merkez ICP, HUD, koltuk ve konsollar. DCS Block 50 yardımcı referansı tam Block 52 aviyonik konfigürasyonunu doğrulamıyor. Ekranlar kapalı görsel yüzeylerdir; konsol anahtarları etiketsiz yer tutucu nesnelerdir. Nihai cold start listesi açık.
+
+Türk işaretleri vektör geometriyle kuruldu; fotoğraftan kesin boya standardı veya tarihsel tescil çıkarılmadı. `TR-052` kurgusal kimliktir. Intel Iris Xe üzerinde oyun performansı ölçülmedi.
+
+
+Dış model revizyonunda SCANG ön/yan/üst ve NASA genel silueti yeniden görsel incelendi. Bulgular ve tahmin sınırları [DIS_MODEL_KARSILASTIRMA.md](DIS_MODEL_KARSILASTIRMA.md) içinde. Bu çalışma kesin Block 52 ölçü açığını çözmedi.
+
+## Kokpit ayrıntı aşaması kaynak incelemesi
+
+DCS yerel kılavuzunun basılı s.43–44, 49–50, 56–57, 62–64, 67, 71–73, 75–79, 83–89, 99–100 ve MFD/başlatma bölümlerinin ilgili metinleri incelendi. Kaynaktaki kumanda adları/kademeler model nesnelerine kaynak sayfasıyla işleniyor. 20 OSB/MFD düzeni, ICP öncelik tuşları ve uçuş/motor gösterge yerleşimi eski ana hacimleri ayrıntılandırmak için kullanılıyor.
+
+GE129 motor paneli ile PW229 hedefi arasındaki fark korunuyor: RPM/FTIT/JFS eşikleri aktarılmadı. JFS fiziksel kumandası kaynaklı yardımcı yer tutucudur; PW229 panel eşlemesi henüz doğrulanmadı. DCS belgesinde ad/kademe doğrulaması ile Block52'ye uygunluk doğrulaması aynı şey değildir.
+
+Web aramasında ED'nin 2019 duyurusu 2007 USAF/ANG Block50 hedefini tekrar doğruladı: https://www.digitalcombatsimulator.com/es/news/2019-02-15_Beta/ . DVIDS araması güncel 52nd Wing sonuçları getirdi; birlik adı uçak bloğu kanıtı olarak kullanılmadı.

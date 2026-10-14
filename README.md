@@ -6,7 +6,22 @@ Görsel hedef VTOL VR tarzında sade, düşük poligonlu geometri, düz renkli m
 
 ## Mevcut durum
 
-Proje araştırma ve konsept aşamasındadır. Blender modeli, üretim betiği ve oyun kodu henüz oluşturulmadı. Konsept görselleri model renderı veya doğrulanmış teknik referans değildir.
+Blender ana model aşamasına geçildi. Düzenlenebilir ilk 3D model, yeniden üretim betiği ve altı kamera önizlemesi mevcut. Kokpit ana hacim düzeyindedir; kesin Block 52 ölçüleri, mekanizmalar ve nihai düğmeler hâlâ doğrulanacak. Oyun kodu henüz oluşturulmadı.
+
+## Blender modeli
+
+[F-16C ana model v04](output/model/f16c_block52_main_v04.blend) dosyasını Blender 5.2'de açın. Gövde, kanatlar, kuyruk, hava alığı, nozul, kanopi, iniş takımı, boş pilonlar ve kokpit ana hacimleri ayrı nesneler olarak düzenlenebilir.
+
+![Gerçek Blender ana model renderı](output/previews/f16_v04_exterior.png)
+
+- [Pilot bakışı](output/previews/f16_v04_cockpit.png)
+- [Üst görünüş](output/previews/f16_v04_top.png)
+- [Yan görünüş](output/previews/f16_v04_side.png)
+- [Ön görünüş](output/previews/f16_v04_front.png)
+- [Ön birleşimler yakından](output/previews/f16_v04_forward_join.png)
+- [Üretim betiği](scripts/build_f16.py), [kullanım ve doğrulama sınırları](output/model/MODEL_NOTES.md)
+
+Sahne 1 birim = 1 metre kullanır. Boyut girdileri henüz kesin Block 52 teknik verisi değildir; fiziksel kokpit konumları tahmindir. Çalışan cold start veya uçuş sistemleri bulunmaz.
 
 ## Proje dosyaları
 
@@ -26,6 +41,6 @@ Bu görsel hedeflenen sanat yaklaşımını gösterir; ölçüler, panel yerleş
 
 ## Devam etmek
 
-Depoyu klonladıktan sonra önce `AGENTS.md`, `PLAN.md` ve `research/DURUM.md` dosyalarını okuyun. Modelleme öncesinde Block 52 ölçülerini ve kokpit referanslarını doğrulayın. Oyun motoru ve export biçimi sonraki aşamada seçilecek.
+Depoyu klonladıktan sonra önce `AGENTS.md`, `PLAN.md` ve `research/DURUM.md` dosyalarını okuyun. Ana modelde kullanılan geçici ölçüleri ve kokpit tahminlerini kesinleştirmek için Block 52 kaynaklarını doğrulayın. Oyun motoru ve export biçimi sonraki aşamada seçilecek.
 
 Araştırma klasöründeki üçüncü taraf belgeler ve görsellerin hakları ilgili sahiplerine aittir; depoda bulunmaları yeniden kullanım izni sağlamaz.

@@ -1,0 +1,26 @@
+{
+  "file": "/home/mami/Projects/bl/output/model/f16c_block52_main_v04.blend",
+  "source": "/home/mami/Projects/bl/output/model/f16c_block52_main_v02.blend",
+  "source_hash_preserved": true,
+  "unchanged_objects_verified": 150,
+  "expected_changed_objects": 33,
+  "missing_objects": [],
+  "unexpected_changes": [],
+  "seam_max_distance_m": {
+    "shoulder_body_L": 0.0,
+    "shoulder_glass_L": 0.0,
+    "shoulder_body_R": 0.0,
+    "shoulder_glass_R": 0.0,
+    "intake_lip_fairing": 0.0,
+    "radome_body": 0.0
+  },
+  "bilateral_max_distance_m": {
+    "Wing": 0.0,
+    "LEX": 0.0,
+    "Flaperon": 0.0,
+    "Stabilator": 0.0,
+    "Cockpit_shoulder": 0.0
+  },
+  "errors": [],
+  "limits": "Shared seam and object-preservation checks only, not comprehensive intersections or engineering accuracy."
+}

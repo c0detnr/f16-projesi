@@ -1,6 +1,6 @@
 # Proje özeti ve sohbetler arası devam
 
-Bu kayıtlar 13 Ekim 2026'daki planlama ve referans toplama çalışmalarından hazırlanmıştır. Amaç hem kullanıcıya okunabilir bir özet sunmak hem de aynı proje klasörüne erişen başka Codex sohbetlerine bağlam bırakmaktır.
+Bu kayıtlar 13 Ekim 2026 planlama, referans toplama ve Blender ana model çalışmalarından hazırlanmıştır. Amaç hem kullanıcıya okunabilir bir özet sunmak hem de aynı proje klasörüne erişen başka Codex sohbetlerine bağlam bırakmaktır.
 
 ## Yapmak istediğimiz şey
 
@@ -37,3 +37,11 @@ Kararların asıl kaydı `PLAN.md` dosyasıdır. Buradaki özet, güncel planla 
 > Bu projede F-16C Block 52 modelini kaldığımız yerden sürdür. Önce AGENTS.md, PLAN.md ve research/DURUM.md dosyalarını oku. Gerekli araştırma için research/ARASTIRMA.md ve research/TODO.md dosyalarına bak. Önceki kararları koru, doğrulanmamış ölçüleri kesin kabul etme ve tamamlanmamış işleri yapılmış sayma. İstenen işi tamamladıktan sonra ilerleme kaydını güncelle.
 
 Codex'in bu dosyalara erişmesi için aynı proje klasöründe çalışması gerekir. `AGENTS.md` proje talimatlarını keşfetmek için desteklenen dosyadır; diğer notlara buradan yönlendirme yapılır. Bu dosyalar tüm hesap veya başka klasörlerdeki sohbetler için otomatik ortak hafıza oluşturmaz. Kaynak: [OpenAI — AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md).
+
+
+## Görülebilir 3D çıktı
+
+İlk ana model teslimatı: [f16c_block52_main_v02.blend](../output/model/f16c_block52_main_v02.blend). Üretim betiği: [build_f16.py](../scripts/build_f16.py); kullanım ve sınırlar: [MODEL_NOTES.md](../output/model/MODEL_NOTES.md). Bu dosya araştırma/konsept görseli değildir, düzenlenebilir 3D sahnedir. Geçici ölçü girdileri ve kokpit ana hacimleri henüz nihai teknik doğrulama sayılmaz.
+
+
+Güncel dış düzeltme teslimatı [v04](../output/model/f16c_block52_main_v04.blend); v02 ilk ana model geçmişidir. Kullanıcı sonraki kokpit ve mekanizma aşamalarına devamı yetkilendirdi.

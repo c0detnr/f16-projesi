@@ -1,0 +1,1704 @@
+{
+  "blend": "f16c_block52_main_v05.blend",
+  "source": "f16c_block52_main_v04.blend",
+  "source_sha256": "73b5fcda491dee95a21dba5c31b81d7689f720bde126b225e3b079727bda3db0",
+  "reference": "Local DCS F-16C manual, 16 August 2026",
+  "scope": "Names/states reviewed in Block50 auxiliary reference; Block52 installation and physical coordinates remain unverified",
+  "controls": [
+    {
+      "id": "mfd_l_01",
+      "object": "MFD_L_OSB_01",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.43700000643730164,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_02",
+      "object": "MFD_L_OSB_02",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.39100000262260437,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_03",
+      "object": "MFD_L_OSB_03",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.3449999988079071,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_04",
+      "object": "MFD_L_OSB_04",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.29899999499320984,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_05",
+      "object": "MFD_L_OSB_05",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.2529999911785126,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_06",
+      "object": "MFD_L_OSB_06",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.21699999272823334,
+        -3.2260000705718994,
+        2.681999921798706
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_07",
+      "object": "MFD_L_OSB_07",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.21699999272823334,
+        -3.2260000705718994,
+        2.635999917984009
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_08",
+      "object": "MFD_L_OSB_08",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.21699999272823334,
+        -3.2260000705718994,
+        2.5899999141693115
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_09",
+      "object": "MFD_L_OSB_09",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.21699999272823334,
+        -3.2260000705718994,
+        2.5439999103546143
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_10",
+      "object": "MFD_L_OSB_10",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.21699999272823334,
+        -3.2260000705718994,
+        2.497999906539917
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_11",
+      "object": "MFD_L_OSB_11",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.2529999911785126,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_12",
+      "object": "MFD_L_OSB_12",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.29899999499320984,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_13",
+      "object": "MFD_L_OSB_13",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.3449999988079071,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_14",
+      "object": "MFD_L_OSB_14",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.39100000262260437,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_15",
+      "object": "MFD_L_OSB_15",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.43700000643730164,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_16",
+      "object": "MFD_L_OSB_16",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.4729999899864197,
+        -3.2260000705718994,
+        2.497999906539917
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_17",
+      "object": "MFD_L_OSB_17",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.4729999899864197,
+        -3.2260000705718994,
+        2.5439999103546143
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_18",
+      "object": "MFD_L_OSB_18",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.4729999899864197,
+        -3.2260000705718994,
+        2.5899999141693115
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_19",
+      "object": "MFD_L_OSB_19",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.4729999899864197,
+        -3.2260000705718994,
+        2.635999917984009
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_l_20",
+      "object": "MFD_L_OSB_20",
+      "panel": "MFD L",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.4729999899864197,
+        -3.2260000705718994,
+        2.681999921798706
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_01",
+      "object": "MFD_R_OSB_01",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.2529999911785126,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_02",
+      "object": "MFD_R_OSB_02",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.29899999499320984,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_03",
+      "object": "MFD_R_OSB_03",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.3449999988079071,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_04",
+      "object": "MFD_R_OSB_04",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.39100000262260437,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_05",
+      "object": "MFD_R_OSB_05",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.43700000643730164,
+        -3.2260000705718994,
+        2.7170000076293945
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_06",
+      "object": "MFD_R_OSB_06",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.4729999899864197,
+        -3.2260000705718994,
+        2.681999921798706
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_07",
+      "object": "MFD_R_OSB_07",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.4729999899864197,
+        -3.2260000705718994,
+        2.635999917984009
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_08",
+      "object": "MFD_R_OSB_08",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.4729999899864197,
+        -3.2260000705718994,
+        2.5899999141693115
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_09",
+      "object": "MFD_R_OSB_09",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.4729999899864197,
+        -3.2260000705718994,
+        2.5439999103546143
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_10",
+      "object": "MFD_R_OSB_10",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.4729999899864197,
+        -3.2260000705718994,
+        2.497999906539917
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_11",
+      "object": "MFD_R_OSB_11",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.43700000643730164,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_12",
+      "object": "MFD_R_OSB_12",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.39100000262260437,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_13",
+      "object": "MFD_R_OSB_13",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.3449999988079071,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_14",
+      "object": "MFD_R_OSB_14",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.29899999499320984,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_15",
+      "object": "MFD_R_OSB_15",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.2529999911785126,
+        -3.2260000705718994,
+        2.4630000591278076
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_16",
+      "object": "MFD_R_OSB_16",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.21699999272823334,
+        -3.2260000705718994,
+        2.497999906539917
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_17",
+      "object": "MFD_R_OSB_17",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.21699999272823334,
+        -3.2260000705718994,
+        2.5439999103546143
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_18",
+      "object": "MFD_R_OSB_18",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.21699999272823334,
+        -3.2260000705718994,
+        2.5899999141693115
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_19",
+      "object": "MFD_R_OSB_19",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.21699999272823334,
+        -3.2260000705718994,
+        2.635999917984009
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "mfd_r_20",
+      "object": "MFD_R_OSB_20",
+      "panel": "MFD R",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.21699999272823334,
+        -3.2260000705718994,
+        2.681999921798706
+      ],
+      "source_pages": "123",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select adjacent display option"
+    },
+    {
+      "id": "icp_1",
+      "object": "ICP_1",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0729999989271164,
+        -3.2090001106262207,
+        2.815000057220459
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_2",
+      "object": "ICP_2",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0,
+        -3.2090001106262207,
+        2.815000057220459
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_3",
+      "object": "ICP_3",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.0729999989271164,
+        -3.2090001106262207,
+        2.815000057220459
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_4",
+      "object": "ICP_4",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0729999989271164,
+        -3.2090001106262207,
+        2.7699999809265137
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_5",
+      "object": "ICP_5",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0,
+        -3.2090001106262207,
+        2.7699999809265137
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_6",
+      "object": "ICP_6",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.0729999989271164,
+        -3.2090001106262207,
+        2.7699999809265137
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_7",
+      "object": "ICP_7",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0729999989271164,
+        -3.2090001106262207,
+        2.7249999046325684
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_8",
+      "object": "ICP_8",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0,
+        -3.2090001106262207,
+        2.7249999046325684
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_9",
+      "object": "ICP_9",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.0729999989271164,
+        -3.2090001106262207,
+        2.7249999046325684
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_rcl",
+      "object": "ICP_RCL",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0729999989271164,
+        -3.2090001106262207,
+        2.680000066757202
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_0",
+      "object": "ICP_0",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0,
+        -3.2090001106262207,
+        2.680000066757202
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_entr",
+      "object": "ICP_ENTR",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.0729999989271164,
+        -3.2090001106262207,
+        2.680000066757202
+      ],
+      "source_pages": "99–100",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DED input / priority page"
+    },
+    {
+      "id": "icp_com_1",
+      "object": "ICP_COM_1",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.11500000208616257,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "icp_com_2",
+      "object": "ICP_COM_2",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.0689999982714653,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "icp_iff",
+      "object": "ICP_IFF",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.023000000044703484,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "icp_list",
+      "object": "ICP_LIST",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.023000000044703484,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "icp_a-a",
+      "object": "ICP_A-A",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.0689999982714653,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "icp_a-g",
+      "object": "ICP_A-G",
+      "panel": "ICP",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.11500000208616257,
+        -3.2049999237060547,
+        2.88100004196167
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC override / master mode"
+    },
+    {
+      "id": "hud_sym",
+      "object": "CTRL_hud_sym",
+      "panel": "ICP",
+      "kind": "rotary",
+      "states": [
+        "MIN",
+        "MAX"
+      ],
+      "initial": "MIN",
+      "position_m": [
+        0.12200000137090683,
+        -3.2189998626708984,
+        2.7720000743865967
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "HUD brightness"
+    },
+    {
+      "id": "ret_depr",
+      "object": "CTRL_ret_depr",
+      "panel": "ICP",
+      "kind": "rotary",
+      "states": [
+        "MIN",
+        "MAX"
+      ],
+      "initial": "MIN",
+      "position_m": [
+        -0.12200000137090683,
+        -3.2189998626708984,
+        2.7720000743865967
+      ],
+      "source_pages": "99",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Reticle depression"
+    },
+    {
+      "id": "landing_gear",
+      "object": "CTRL_gear_handle",
+      "panel": "LEFT AUX",
+      "kind": "lever",
+      "states": [
+        "UP",
+        "DOWN"
+      ],
+      "initial": "DOWN",
+      "position_m": [
+        0.4000000059604645,
+        -3.0799999237060547,
+        2.2850000858306885
+      ],
+      "source_pages": "56",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Landing gear command"
+    },
+    {
+      "id": "main_power",
+      "object": "CTRL_main_power",
+      "panel": "ELEC",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "BATT",
+        "MAIN PWR"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        0.41999998688697815,
+        -2.4800000190734863,
+        2.4079999923706055
+      ],
+      "source_pages": "64",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Select electrical power source"
+    },
+    {
+      "id": "elec_reset",
+      "object": "CTRL_elec_reset",
+      "panel": "ELEC",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.5649999976158142,
+        -2.4800000190734863,
+        2.4079999923706055
+      ],
+      "source_pages": "65",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "RESET"
+    },
+    {
+      "id": "fuel_master",
+      "object": "CTRL_fuel_master",
+      "panel": "FUEL",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "MASTER"
+      ],
+      "initial": "MASTER",
+      "position_m": [
+        0.4000000059604645,
+        -2.1600000858306885,
+        2.4079999923706055
+      ],
+      "source_pages": "67",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Engine fuel shutoff"
+    },
+    {
+      "id": "engine_feed",
+      "object": "CTRL_engine_feed",
+      "panel": "FUEL",
+      "kind": "rotary",
+      "states": [
+        "OFF",
+        "NORM",
+        "AFT",
+        "FWD"
+      ],
+      "initial": "NORM",
+      "position_m": [
+        0.5649999976158142,
+        -2.1600000858306885,
+        2.4205000400543213
+      ],
+      "source_pages": "67",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "ENG FEED"
+    },
+    {
+      "id": "epu",
+      "object": "CTRL_epu",
+      "panel": "EPU",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "NORM",
+        "ON"
+      ],
+      "initial": "NORM",
+      "position_m": [
+        0.4699999988079071,
+        -1.850000023841858,
+        2.4079999923706055
+      ],
+      "source_pages": "64",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "EPU"
+    },
+    {
+      "id": "jfs",
+      "object": "CTRL_jfs",
+      "panel": "ENG START",
+      "kind": "toggle",
+      "states": [
+        "START 1",
+        "OFF",
+        "START 2"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        0.5199999809265137,
+        -2.759999990463257,
+        2.4079999923706055
+      ],
+      "source_pages": "63",
+      "verification": "DCS GE129 panel source only; PW229 panel compatibility pending",
+      "planned_function": "Jet fuel starter command; PW229 operating sequence pending"
+    },
+    {
+      "id": "throttle",
+      "object": "Throttle_grip",
+      "panel": "LEFT HOTAS",
+      "kind": "lever",
+      "states": [
+        "OFF",
+        "IDLE",
+        "MIL",
+        "MAX"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        0.36500000953674316,
+        -2.940000057220459,
+        2.4800000190734863
+      ],
+      "source_pages": "87–89",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Throttle and cutoff gate; PW229 response unmodeled"
+    },
+    {
+      "id": "speedbrake",
+      "object": "CTRL_speedbrake",
+      "panel": "THROTTLE",
+      "kind": "toggle",
+      "states": [
+        "CLOSE",
+        "HOLD",
+        "OPEN"
+      ],
+      "initial": "HOLD",
+      "position_m": [
+        0.36000001430511475,
+        -2.944999933242798,
+        2.4079999923706055
+      ],
+      "source_pages": "89",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Speedbrake command"
+    },
+    {
+      "id": "canopy_switch",
+      "object": "CTRL_canopy_switch",
+      "panel": "LEFT WALL",
+      "kind": "toggle",
+      "states": [
+        "UP",
+        "STOP",
+        "DOWN"
+      ],
+      "initial": "STOP",
+      "position_m": [
+        0.5699999928474426,
+        -3.0350000858306885,
+        2.4079999923706055
+      ],
+      "source_pages": "73",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "CANOPY"
+    },
+    {
+      "id": "canopy_lock",
+      "object": "CTRL_canopy_lock",
+      "panel": "LEFT WALL",
+      "kind": "lever",
+      "states": [
+        "UNLOCKED",
+        "LOCKED"
+      ],
+      "initial": "LOCKED",
+      "position_m": [
+        0.5799999833106995,
+        -2.9600000381469727,
+        2.5450000762939453
+      ],
+      "source_pages": "73",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Canopy seal and latch"
+    },
+    {
+      "id": "console_light",
+      "object": "CTRL_console_light",
+      "panel": "INT LIGHTING",
+      "kind": "rotary",
+      "states": [
+        "OFF",
+        "BRT"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.4050000011920929,
+        -2.9700000286102295,
+        2.4205000400543213
+      ],
+      "source_pages": "76",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "CONSOLES"
+    },
+    {
+      "id": "instrument_light",
+      "object": "CTRL_instrument_light",
+      "panel": "INT LIGHTING",
+      "kind": "rotary",
+      "states": [
+        "OFF",
+        "BRT"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.5550000071525574,
+        -2.9700000286102295,
+        2.4205000400543213
+      ],
+      "source_pages": "76",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "INST PNL"
+    },
+    {
+      "id": "oxygen_supply",
+      "object": "CTRL_oxygen_supply",
+      "panel": "OXYGEN",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "ON",
+        "PBG"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.4000000059604645,
+        -2.5899999141693115,
+        2.4079999923706055
+      ],
+      "source_pages": "77",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "SUPPLY"
+    },
+    {
+      "id": "oxygen_diluter",
+      "object": "CTRL_oxygen_diluter",
+      "panel": "OXYGEN",
+      "kind": "toggle",
+      "states": [
+        "NORM",
+        "100%"
+      ],
+      "initial": "NORM",
+      "position_m": [
+        -0.5550000071525574,
+        -2.5899999141693115,
+        2.4079999923706055
+      ],
+      "source_pages": "77",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DILUTER"
+    },
+    {
+      "id": "av_mmc",
+      "object": "CTRL_av_mmc",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "MMC"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.36500000953674316,
+        -2.2699999809265137,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "MMC"
+    },
+    {
+      "id": "av_st_sta",
+      "object": "CTRL_av_st_sta",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "ST STA"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.4699999988079071,
+        -2.2699999809265137,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "ST STA"
+    },
+    {
+      "id": "av_mfd",
+      "object": "CTRL_av_mfd",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "MFD"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.574999988079071,
+        -2.2699999809265137,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "MFD"
+    },
+    {
+      "id": "av_ufc",
+      "object": "CTRL_av_ufc",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "UFC"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.36500000953674316,
+        -2.130000114440918,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "UFC"
+    },
+    {
+      "id": "av_gps",
+      "object": "CTRL_av_gps",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "GPS"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.4699999988079071,
+        -2.130000114440918,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "GPS"
+    },
+    {
+      "id": "av_dl",
+      "object": "CTRL_av_dl",
+      "panel": "AVIONICS",
+      "kind": "toggle",
+      "states": [
+        "OFF",
+        "DL"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.574999988079071,
+        -2.130000114440918,
+        2.4079999923706055
+      ],
+      "source_pages": "78–79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "DL"
+    },
+    {
+      "id": "ins",
+      "object": "CTRL_ins",
+      "panel": "AVIONICS",
+      "kind": "rotary",
+      "states": [
+        "OFF",
+        "ALIGN STOR HDG",
+        "ALIGN NORM",
+        "NAV",
+        "CAL",
+        "IN FLT ALIGN",
+        "ATT"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        -0.4749999940395355,
+        -1.9550000429153442,
+        2.4205000400543213
+      ],
+      "source_pages": "79",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "INS"
+    },
+    {
+      "id": "landing_light",
+      "object": "CTRL_landing_light",
+      "panel": "LEFT AUX",
+      "kind": "toggle",
+      "states": [
+        "LANDING",
+        "OFF",
+        "TAXI"
+      ],
+      "initial": "OFF",
+      "position_m": [
+        0.5299999713897705,
+        -3.25,
+        2.4079999923706055
+      ],
+      "source_pages": "57",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "LIGHTS"
+    },
+    {
+      "id": "parking_brake",
+      "object": "CTRL_parking_brake",
+      "panel": "LEFT AUX",
+      "kind": "toggle",
+      "states": [
+        "PARK",
+        "ANTI-SKID",
+        "OFF"
+      ],
+      "initial": "PARK",
+      "position_m": [
+        0.41499999165534973,
+        -3.25,
+        2.4079999923706055
+      ],
+      "source_pages": "56",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "BRAKES"
+    },
+    {
+      "id": "flcs_power_test",
+      "object": "CTRL_flcs_power_test",
+      "panel": "TEST",
+      "kind": "toggle",
+      "states": [
+        "MAINT",
+        "NORM",
+        "TEST"
+      ],
+      "initial": "NORM",
+      "position_m": [
+        0.4050000011920929,
+        -1.6299999952316284,
+        2.4079999923706055
+      ],
+      "source_pages": "73",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Pre-start FLCS battery test; MAINT reserved for maintenance"
+    },
+    {
+      "id": "lights_test",
+      "object": "CTRL_lights_test",
+      "panel": "TEST",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        0.5600000023841858,
+        -1.6299999952316284,
+        2.4079999923706055
+      ],
+      "source_pages": "72",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Indicator lamp test"
+    },
+    {
+      "id": "stick_trim",
+      "object": "CTRL_stick_trim",
+      "panel": "RIGHT HOTAS",
+      "kind": "hat",
+      "states": [
+        "NEUTRAL",
+        "NOSE UP",
+        "NOSE DOWN",
+        "ROLL L",
+        "ROLL R"
+      ],
+      "initial": "NEUTRAL",
+      "position_m": [
+        -0.4350000023841858,
+        -2.8450000286102295,
+        2.740000009536743
+      ],
+      "source_pages": "83",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Pitch/roll trim"
+    },
+    {
+      "id": "nosewheel_steering",
+      "object": "CTRL_nws",
+      "panel": "RIGHT HOTAS",
+      "kind": "pushbutton",
+      "states": [
+        "RELEASED",
+        "PRESSED"
+      ],
+      "initial": "RELEASED",
+      "position_m": [
+        -0.47600001096725464,
+        -2.815999984741211,
+        2.674999952316284
+      ],
+      "source_pages": "83–84",
+      "verification": "Auxiliary Block50 reference; Block52 fit pending",
+      "planned_function": "Ground NWS toggle; multifunction in flight"
+    }
+  ],
+  "indicators": "Cold unpowered displays; analogue needles schematic, no flight/system logic",
+  "ergonomics": "Modeling estimate, eye at (0,-2.56,3.04), 1 unit=1m"
+}

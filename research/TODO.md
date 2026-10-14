@@ -8,7 +8,7 @@
 - [x] Block 52 dış görünüş fotoğrafları, genel üç görünüşler, hava alığı karşılaştırması, kokpit, Türk boyama ve VTOL VR stil kaynaklarını bul ve incelenen bölümleri kaydet. Bu madde kesin ölçüleri veya tüm varyant ayrıntılarını doğrulamış sayılmaz.
 
 
-## Modellemeye başlamadan önce
+## Ana modelde geçici kalan teknik doğrulamalar
 
 - [ ] Standart tek koltuklu F-16C Block 52 için tutarlı bir dış görünüm ve aviyonik referans konfigürasyonu seç; farklı blok ve modernizasyonlardan ayrıntıları karıştırma.
 - [ ] Block 52’ye doğrudan bağlı ölçülü üst, yan ve ön görünüşü doğrula. Genel ölçü işaretli NASA CR-4182 çizimi ve koşulları bulundu; 1979 konfigürasyonu hedef bloğu doğrulamıyor.
@@ -47,4 +47,14 @@
 - [ ] 169th FW dış görünüş setinin aviyonik dönemi ile kokpit yardımcı kaynağının farklarını eşleştir; tek bir fotoğraf seti tüm panel konfigürasyonunu doğrulamaz.
 - [ ] Türk boya standardını ve üst/alt işaret-stencil kapsamını doğrula; fotoğraf ışığından kesin renk üretme.
 
-Kullanıcı bu oturumda yalnızca referans bulmayı istedi. Model, nihai düğme haritası, checklist ve oyun aşaması başlatılmadı.
+13 Ekim 2026 yeni talimatıyla Blender ana model oluşturuldu; nihai düğme haritası, checklist ve oyun aşaması tamamlanmadı. Yukarıdaki teknik doğrulamalar açık tutuluyor.
+
+
+## İlk ana modelden sonra
+
+- [ ] Geçici kesitleri doğrulanmış Block 52 çizimiyle düzelt; kokpitin gerçek ölçeğini doğrula.
+- [ ] Kanopi camı ve çerçevesini ortak menteşe hiyerarşisine bağla; mevcut omuz geometrisinin referans uyumunu iyileştir.
+- [ ] İniş takımı, kapaklar, hava frenleri ve kumanda yüzeyleri için mekanizma/pivot/hareket aralıklarını doğrula ve hiyerarşileri kur.
+- [ ] Kokpit ana hacimlerini nihai panel, gösterge, İngilizce etiket ve kaynaklı düğme haritasıyla ayrıntılandır.
+- [ ] PW229 nozul yapraklarını yakın arka referansa göre düzelt; genel ana model yorumu henüz yeterli teknik doğrulama değil.
+- [ ] Alt/yan işaretler ve stencilleri doğrula; ilk ana modelde üst kanat yuvarlakları ve kuyruk Türk bayrağı bulunuyor.

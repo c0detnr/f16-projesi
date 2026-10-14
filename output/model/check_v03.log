@@ -1,0 +1,30 @@
+00:01.632  blend            | Read blend: "/home/mami/Projects/bl/output/model/f16c_block52_main_v03.blend"
+{
+  "file": "/home/mami/Projects/bl/output/model/f16c_block52_main_v03.blend",
+  "opened_successfully": true,
+  "asset_objects": 170,
+  "evaluated_vertices": 3885,
+  "evaluated_triangles": 5654,
+  "bbox_size_m": [
+    9.95680046081543,
+    15.066932201385498,
+    4.876800065299027
+  ],
+  "external_texture_files": [],
+  "errors": [],
+  "checks": [
+    "required main parts",
+    "finite geometry",
+    "nonzero polygon area",
+    "metric scale",
+    "provisional model envelope",
+    "external dependencies"
+  ],
+  "limits": [
+    "No exact reference fit or collision/mechanism validation",
+    "No Iris Xe game benchmark"
+  ]
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-09-01 00:24:57)
+
+Blender quit

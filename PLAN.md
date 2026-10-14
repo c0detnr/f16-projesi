@@ -74,3 +74,10 @@ Araştırma kayıtları: [research/ARASTIRMA.md](research/ARASTIRMA.md)
 Eksik araştırmalar: [research/TODO.md](research/TODO.md)
 Proje özeti ve yeni sohbet başlangıcı: [research/README.md](research/README.md)
 Güncel ilerleme: [research/DURUM.md](research/DURUM.md)
+
+## Dış model düzeltme kararı — 13 Ekim 2026
+
+Kullanıcının yeni sırası: önce burun, kanopi–gövde birleşimi, hava alığı, kanat/kuyruk oranları; sonra koltuk/panel/pilot görüşü ve kaynaklı kumandalarla İngilizce etiketler; ardından kanopi, iniş takımı, kapak ve kontrol yüzeyi mekanizmaları. İlk düzeltme teslimatı dış modeldir. Mevcut `.blend` korunarak yeni sürüm oluşturulacak. Kesin Block 52 kesitleri bulunmadıkça fotoğraf yorumları teknik ölçü olarak sunulmayacak.
+
+
+Kullanıcı bilgisayardan ayrılırken iş bitiminde gereken sonraki adımlara geçilmesini açıkça yetkilendirdi: dış v04 sonrasında kokpit ayrıntıları ve hareketli parça hazırlığına devam edilecek; her aşama sürümlü korunacak.

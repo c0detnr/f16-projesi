@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F-16C Block 52 — İlk Uçuş</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #0a0e14;
+        font-family: monospace;
+      }
+      #app {
+        width: 100%;
+        height: 100%;
+      }
+      #hud {
+        position: fixed;
+        left: 0;
+        top: 0;
+        color: #7dff9a;
+        text-shadow: 0 0 4px rgba(0, 255, 100, 0.5);
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px 14px;
+        pointer-events: none;
+        white-space: pre;
+        z-index: 10;
+      }
+      #throttle-gauge {
+        position: fixed;
+        right: 24px;
+        bottom: 24px;
+        width: 26px;
+        height: 220px;
+        border: 1px solid #7dff9a;
+        background: rgba(0, 20, 10, 0.4);
+        z-index: 10;
+        pointer-events: none;
+      }
+      #throttle-fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #7dff9a;
+        height: 0%;
+      }
+      #throttle-label {
+        position: absolute;
+        left: -34px;
+        bottom: 0;
+        color: #7dff9a;
+        font-size: 12px;
+      }
+      #overlay {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(4, 8, 12, 0.82);
+        color: #cfe8d8;
+        z-index: 20;
+        cursor: pointer;
+        text-align: center;
+      }
+      #overlay h1 {
+        font-size: 22px;
+        margin: 0 0 12px;
+      }
+      #overlay p {
+        margin: 4px 0;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+      .hidden {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud" class="hidden"></div>
+    <div id="throttle-gauge" class="hidden">
+      <div id="throttle-fill"></div>
+      <div id="throttle-label">THR</div>
+    </div>
+    <div id="overlay">
+      <div>
+        <h1>F-16C Block 52 — İlk Uçuş</h1>
+        <p>Tıkla ve uçuşa başla (fare kilitlenir, ESC ile çıkar)</p>
+        <p>Fare: yatış / yunuslama &nbsp;|&nbsp; W/S: gaz &nbsp;|&nbsp; G: iniş takımı</p>
+        <p>M: ses açık / kapalı</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
